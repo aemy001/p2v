@@ -13,7 +13,7 @@ export default function Navigation() {
   };
 
   return (
-    <nav className="sticky top-0 z-50 bg-white border-b border-gray-200">
+    <nav className="sticky top-0 z-50 bg-white border-b text-gray-900 font-sans border-gray-200">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         <div className="text-2xl font-black text-blue-900">P2V</div>
 
