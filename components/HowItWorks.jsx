@@ -15,8 +15,8 @@ const HowItWorks = () => {
     },
     {
       icon: <Package size={32} />,
-      title: "Picking & Packing",
-      items: ["Accurate order selection", "Protective packaging", "Quality checks"]
+      title: "Fulfillment Operations",
+      items: ["Accurate order selection", "Secure palletizing", "Quality checks"]
     },
     {
       icon: <Truck size={32} />,

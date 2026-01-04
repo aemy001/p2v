@@ -203,7 +203,7 @@ export default function P2VHome() {
       Shipping
     </h3>
     <p className="text-sm text-gray-600 leading-relaxed">
-      Fast, coordinated delivery to your customers
+     Optimized freight routing and distribution
     </p>
   </div>
 </div>
@@ -327,7 +327,7 @@ export default function P2VHome() {
                     size={20}
                     className="text-green-600 shrink-0"
                   />{" "}
-                  Automated order processing
+                  Automated freight management
                 </li>
                 <li className="flex gap-2">
                   <CheckCircle
@@ -468,7 +468,7 @@ export default function P2VHome() {
         </div>
         <h3 className="text-2xl font-bold text-gray-900 mb-4">Retail Distribution</h3>
         <p className="text-gray-600 leading-relaxed">
-          From e-commerce fulfillment to wholesale distribution, we handle high-volume orders with precision. Scale confidently with our multi-channel solutions designed for retail velocity.
+          From commercial supply chain to wholesale distribution, we handle high-volume orders with precision. Scale confidently with our multi-channel solutions designed for retail velocity.
         </p>
       </div>
 
