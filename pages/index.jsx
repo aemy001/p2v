@@ -96,11 +96,11 @@ export default function P2VHome() {
     <div className="grid lg:grid-cols-2 gap-16 items-center">
       {/* Left Content */}
       <div>
-        <div className="inline-block mb-4">
+        {/* <div className="inline-block mb-4">
           <span className="text-xs font-bold text-blue-600 uppercase tracking-wider bg-blue-50 px-4 py-2 rounded-full">
             Understanding 3PL
           </span>
-        </div>
+        </div> */}
         
         <h2 className="text-4xl md:text-5xl font-black mb-6 text-gray-900 leading-tight">
           What is <span className="text-blue-600">3PL?</span>

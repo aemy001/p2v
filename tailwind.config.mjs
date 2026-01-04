@@ -17,7 +17,8 @@ module.exports = {
       },
       fontFamily: {
         // This sets Poppins as the default sans font
-        sans: ['var(--font-poppins)', 'sans-serif'],
+        // sans: ['var(--font-poppins)', 'sans-serif'],
+            sans: ["var(--font-sans-s-3)", "sans-serif"],
       },
     },
   },

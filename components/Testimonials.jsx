@@ -74,7 +74,7 @@ const TestimonialsSection = () => {
 
         <div className="text-center mb-16 relative z-10">
           <h2 className="text-3xl md:text-4xl font-black text-blue-900 mb-4">
-            Client Results
+            Testimonials
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Proven logistics success stories from our partners across the globe.
