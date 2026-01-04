@@ -109,8 +109,7 @@ export default function P2VHome() {
         <p className="text-xl text-gray-700 leading-relaxed mb-6">
           Third-party logistics (3PL) is the outsourcing of logistics
           operations to a specialized provider. At P2V, we manage your
-          entire supply chain from receiving inventory to delivering
-          products to customers.
+          entire supply chain from receiving inventory to delivering products to end markets or retail channels.
         </p>
         
         <p className="text-gray-600 leading-relaxed mb-10">
@@ -187,7 +186,7 @@ export default function P2VHome() {
       <span className="text-2xl font-black text-blue-600">03</span>
     </div>
     <h3 className="font-bold text-gray-900 text-lg mb-2">
-      Pick & Pack
+      Order Processing
     </h3>
     <p className="text-sm text-gray-600 leading-relaxed">
       Accurate order preparation with quality control
