@@ -371,51 +371,87 @@ export default function P2VHome() {
             </div>
           </div>
 
-         {/* The 3 Pillars of Logistics Science */}
-<div className="grid md:grid-cols-3 gap-8 mb-16">
-  {/* Pillar 1 */}
-  <div className="bg-gray-800/50 border border-gray-700 p-8 rounded-xl hover:bg-gray-800 hover:border-blue-500/50 transition duration-300">
-    <div className="w-12 h-12 bg-blue-900/50 rounded-lg flex items-center justify-center mb-6 text-blue-400">
-      <Cpu size={24} />
-    </div>
-    <h3 className="text-xl font-bold mb-3 text-white">
-      Inbound & Routing Intelligence
-    </h3>
-    <p className="text-gray-400 text-sm leading-relaxed">
-      We evaluate inbound schedules and domestic routing data before freight reaches
-      the dock, reducing dwell time and preventing downstream congestion.
-    </p>
-  </div>
+          {/* The 3 Pillars of Logistics Science */}
+          <div className="grid md:grid-cols-3 gap-8 mb-16">
+            {/* Pillar 1 */}
+            <div className="bg-gray-800/50 border border-gray-700 p-8 rounded-xl hover:bg-gray-800 hover:border-blue-500/50 transition duration-300">
+              <div className="w-12 h-12 bg-blue-900/50 rounded-lg flex items-center justify-center mb-6 text-blue-400">
+                <svg id="Outline" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 64 64" width="40px" height="40px" className="fill-current" >
+  <path d="M33,33h-8c-.55273,0-1,.44775-1,1v4c0,.55225.44727,1,1,1h8c.55273,0,1-.44775,1-1v-4c0-.55225-.44727-1-1-1ZM32,37h-6v-2h6v2Z"/>
+  <path d="M52,29.29999v-7.29999c0-.16003-.03998-.31-.10999-.45001l-3-6c-.17004-.34003-.51001-.54999-.89001-.54999h-23.06c-.5-4.48999-4.32001-8-8.94-8-4.96002,0-9,4.03998-9,9,0,5.12,5.23999,12.65997,7.34998,15.5-.81.52997-1.34998,1.45001-1.34998,2.5,0,1.64996,1.34998,3,3,3s3-1.35004,3-3c0-1.04999-.53998-1.97003-1.34998-2.5.58997-.81,1.44-1.98999,2.34998-3.38v13.88c0,.54999.45001,1,1,1h24.31c1.73999,3.07996,3.84003,5.53998,3.92999,5.64996.19.22003.47003.35004.76001.35004s.57001-.13.76001-.35004c.25-.29999,6.23999-7.33997,6.23999-12.64996,0-3.15002-2.07001-5.85004-5-6.70001ZM47.38,17l2,4h-7.66003l-1.32996-4h6.98999ZM32,22.15997l1.71997-5.15997h4.56006l1.71997,5.15997v4.35999l-3.63-1.44995c-.12-.05005-.23999-.07001-.37-.07001s-.25.01996-.37.07001l-3.63,1.44995v-4.35999ZM24.92999,17h6.67999l-1.32996,4h-6.45001c.56-1.38.95001-2.73999,1.09998-4ZM16,35c-.54999,0-1-.45001-1-1s.45001-1,1-1,1,.45001,1,1-.45001,1-1,1ZM16,30.34998c-1.96997-2.64996-7-9.83997-7-14.34998,0-3.85999,3.14001-7,7-7s7,3.14001,7,7c0,4.51001-5.03003,11.70001-7,14.34998ZM22,41v-16.20001c.33002-.59003.64001-1.19.94-1.79999h7.06v5c0,.32996.16998.64001.44.82996.27002.18005.63.22003.92999.10004l4.63-1.85004,4.63,1.85004c.12.04999.23999.07001.37.07001.20001,0,.39001-.06.56-.17004.27002-.18994.44-.5.44-.82996v-5h8v6c-3.85999,0-7,3.14001-7,7,0,1.44.44,3.12,1.28998,5h-22.28998ZM50,46.39996c-.82001-1.04999-2.14001-2.85999-3.21997-4.87-1.18005-2.20001-1.78003-4.06-1.78003-5.52997,0-2.76001,2.23999-5,5-5,.28003,0,.56.01996.84003.07996,2.40997.40002,4.15997,2.47003,4.15997,4.92004,0,3.54999-3.44,8.39001-5,10.39996Z"/>
+  <path d="M47,36c0,1.6543,1.3457,3,3,3s3-1.3457,3-3-1.3457-3-3-3-3,1.3457-3,3ZM51,36c0,.55127-.44824,1-1,1s-1-.44873-1-1,.44824-1,1-1,1,.44873,1,1Z"/>
+  <path d="M50,51c-1.6543,0-3,1.3457-3,3s1.3457,3,3,3,3-1.3457,3-3-1.3457-3-3-3ZM50,55c-.55176,0-1-.44873-1-1s.44824-1,1-1,1,.44873,1,1-.44824,1-1,1Z"/>
+  <path d="M21,16c0-2.75684-2.24316-5-5-5s-5,2.24316-5,5,2.24316,5,5,5,5-2.24316,5-5ZM13,16c0-1.6543,1.3457-3,3-3s3,1.3457,3,3-1.3457,3-3,3-3-1.3457-3-3Z"/>
+  <path d="M16,43c.55273,0,1-.44775,1-1v-2c0-.55225-.44727-1-1-1s-1,.44775-1,1v2c0,.55225.44727,1,1,1Z"/>
+  <path d="M15,48c0,.55225.44727,1,1,1s1-.44775,1-1v-2c0-.55225-.44727-1-1-1s-1,.44775-1,1v2Z"/>
+  <path d="M44,53h-2c-.55273,0-1,.44775-1,1s.44727,1,1,1h2c.55273,0,1-.44775,1-1s-.44727-1-1-1Z"/>
+  <path d="M38,53h-2c-.55273,0-1,.44775-1,1s.44727,1,1,1h2c.55273,0,1-.44775,1-1s-.44727-1-1-1Z"/>
+  <path d="M32,53h-2c-.55273,0-1,.44775-1,1s.44727,1,1,1h2c.55273,0,1-.44775,1-1s-.44727-1-1-1Z"/>
+  <path d="M26,53h-2c-.55273,0-1,.44775-1,1s.44727,1,1,1h2c.55273,0,1-.44775,1-1s-.44727-1-1-1Z"/>
+  <path d="M20,53h-3v-1c0-.55225-.44727-1-1-1s-1,.44775-1,1v2c0,.55225.44727,1,1,1h4c.55273,0,1-.44775,1-1s-.44727-1-1-1Z"/>
+</svg>
+              </div>
+              <h3 className="text-xl font-bold mb-3 text-white">
+                Inbound & Routing Intelligence
+              </h3>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                We evaluate inbound schedules and domestic routing data before
+                freight reaches the dock, reducing dwell time and preventing
+                downstream congestion.
+              </p>
+            </div>
 
-  {/* Pillar 2 */}
-  <div className="bg-gray-800/50 border border-gray-700 p-8 rounded-xl hover:bg-gray-800 hover:border-blue-500/50 transition duration-300">
-    <div className="w-12 h-12 bg-blue-900/50 rounded-lg flex items-center justify-center mb-6 text-blue-400">
-      <Layers size={24} />
-    </div>
-    <h3 className="text-xl font-bold mb-3 text-white">
-      Warehouse Structure & Density
-    </h3>
-    <p className="text-gray-400 text-sm leading-relaxed">
-      Our warehouse layouts are engineered to balance storage density with
-      accessibility, keeping long-term contract logistics efficient and scalable.
-    </p>
-  </div>
+            {/* Pillar 2 */}
+            <div className="bg-gray-800/50 border border-gray-700 p-8 rounded-xl hover:bg-gray-800 hover:border-blue-500/50 transition duration-300">
+              <div className="w-12 h-12 bg-blue-900/50 rounded-lg flex items-center justify-center mb-6 text-blue-400">
+               <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 64 64" width="40px" height="40px" className="fill-current">
+  <g>
+    <g id="Outline">
+      <g>
+        <path d="M55.63,22.92875c.30829.12231.65259.07953.92999-.10004.27002-.18994.44-.5.44-.82996v-4.40002c0-.40997-.25-.77002-.63-.92999l-24-9.59998c-.23999-.09003-.5-.09003-.73999,0L7.63,16.66874c-.38.15997-.63.52002-.63.92999v4.40002c0,.32996.16998.64001.44.82996.27002.18005.62.22003.92999.10004l.63-.25v28.32001c-1.09998,0-2,.89996-2,2v2c0,1.09998.90002,2,2,2h46c1.09998,0,2-.90002,2-2v-2c0-1.10004-.90002-2-2-2v-28.32001s.62872.24951.63.25ZM55,54.99876H9v-2h46v2ZM44,31.99876h-12c-.54999,0-1,.45001-1,1v8h-11c-.54999,0-1,.45001-1,1v9h-2v-21h30v21h-2v-18c0-.54999-.45001-1-1-1ZM33,40.99876v-7h10v7h-10ZM43,42.99876v8h-10v-8h10ZM31,42.99876v8h-10v-8h10ZM15,27.99876v-2h34v2H15ZM49,29.99876h1c.54999,0,1-.45001,1-1v-4c0-.54999-.45001-1-1-1H14c-.54999,0-1,.45001-1,1v4c0,.54999.45001,1,1,1h1v21h-4v-29.12l21-8.40002,21,8.40002v29.12h-4v-21ZM32.37,11.46873c-.12-.04999-.23999-.07001-.37-.07001s-.25.02002-.37.07001l-22.63,9.04999v-2.23999l23-9.20001,23,9.20001v2.23999l-22.63-9.04999Z"/>
+        <path d="M32,15.99876c-1.6543,0-3,1.3457-3,3s1.3457,3,3,3,3-1.3457,3-3-1.3457-3-3-3ZM32,19.99876c-.55176,0-1-.44873-1-1s.44824-1,1-1,1,.44873,1,1-.44824,1-1,1Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
+              </div>
+              <h3 className="text-xl font-bold mb-3 text-white">
+                Warehouse Structure & Density
+              </h3>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                Our warehouse layouts are engineered to balance storage density
+                with accessibility, keeping long-term contract logistics
+                efficient and scalable.
+              </p>
+            </div>
 
-  {/* Pillar 3 */}
-  <div className="bg-gray-800/50 border border-gray-700 p-8 rounded-xl hover:bg-gray-800 hover:border-blue-500/50 transition duration-300">
-    <div className="w-12 h-12 bg-blue-900/50 rounded-lg flex items-center justify-center mb-6 text-blue-400">
-      <Zap size={24} />
-    </div>
-    <h3 className="text-xl font-bold mb-3 text-white">
-      Execution Speed & Throughput
-    </h3>
-    <p className="text-gray-400 text-sm leading-relaxed">
-      We measure performance in seconds. From short-term project surges to daily
-      B2B fulfillment, our operations are tuned for consistent, repeatable speed.
-    </p>
-  </div>
-</div>
-
+            {/* Pillar 3 */}
+            <div className="bg-gray-800/50 border border-gray-700 p-8 rounded-xl hover:bg-gray-800 hover:border-blue-500/50 transition duration-300">
+              <div className="w-12 h-12 bg-blue-900/50 rounded-lg flex items-center justify-center mb-6 text-blue-400">
+             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 64 64" width="40px" height="40px" className="fill-current">
+  <g>
+    <g id="Outline">
+      <g>
+        <path d="M56.83002,35.45001l-6-9c-.17999-.28003-.5-.45001-.83002-.45001h-10v-4c0-1.65002-1.34998-3-3-3h-15.81l-1.71002-.67999,2.36995-3.78997c.4054-.6483-.09198-1.53004-.84993-1.53004h-6c-.39001,0-.73999.21997-.90997.57996l-2.54004,5.42004h-1.54999c-1.65002,0-3,1.34998-3,3v23c0,1.64996,1.34998,3,3,3h3.14001c.45001,1.71997,2,3,3.85999,3s3.40997-1.28003,3.85999-3h5.28003c.45001,1.71997,2,3,3.85999,3s3.40997-1.28003,3.85999-3h10.28003c.45001,1.71997,2,3,3.85999,3s3.40997-1.28003,3.85999-3h3.14001c1.09998,0,2-.90002,2-2v-10c0-.20001-.06-.39001-.16998-.54999ZM15.64001,15h3.56s-2.0449,3.26185-2.05002,3.27001c-.32852.52413-.08888,1.232.48001,1.45997l2.71997,1.09003-4.31995,5.17999.93994-3.76001c.12006-.47998-.12994-.97998-.59998-1.16998l-3.02002-1.20001,2.29004-4.87ZM17,49c-1.09998,0-2-.90002-2-2,0-1.10004.90002-2,2-2s2,.89996,2,2c0,1.09998-.90002,2-2,2ZM30,49c-1.09998,0-2-.90002-2-2,0-1.10004.90002-2,2-2s2,.89996,2,2c0,1.09998-.90002,2-2,2ZM38,46h-4.14001c-.45001-1.72003-2-3-3.85999-3s-3.40997,1.27997-3.85999,3h-5.28003c-.45001-1.72003-2-3-3.85999-3s-3.40997,1.27997-3.85999,3h-3.14001c-.54999,0-1-.45001-1-1v-4h29v5ZM38,39H9v-17c0-.54999.45001-1,1-1h1.21997c.11005.14001.24005.26001.41003.32996l3.19,1.27002-1.78998,7.16003c-.11005.44995.09998.91998.52014,1.1301.41258.20601.92152.1079,1.21985-.25009l8-9.60004c.01001-.01001.01001-.02997.01996-.03998h14.21002c.54999,0,1,.45001,1,1v17ZM48,49c-1.09998,0-2-.90002-2-2,0-1.10004.90002-2,2-2s2,.89996,2,2c0,1.09998-.90002,2-2,2ZM55,39h-2c-.54999,0-1,.45001-1,1s.45001,1,1,1h2v5h-3.14001c-.45001-1.72003-2-3-3.85999-3s-3.40997,1.27997-3.85999,3h-4.14001v-18h9.46002l5.53998,8.29999v2.70001Z"/>
+        <path d="M48,30h-5c-.55225,0-1,.44727-1,1v5c0,.55273.44775,1,1,1h8c.36035,0,.69287-.19336.87012-.50684.17773-.31445.17285-.69922-.0127-1.00781l-3-5c-.18066-.30078-.50635-.48535-.85742-.48535ZM44,35v-3h3.43359l1.80029,3h-5.23389Z"/>
+        <path d="M29.70703,23.29297c-.39062-.39062-1.02344-.39062-1.41406,0s-.39062,1.02344,0,1.41406l5.29297,5.29297-5.29297,5.29297c-.39062.39062-.39062,1.02344.00005,1.41411.38716.38711,1.02685.38712,1.41402-.00005.00011-.00011,6-6,6-6,.39062-.39062.39062-1.02344,0-1.41406l-6-6Z"/>
+        <path d="M27,31h-9c-.55225,0-1,.44727-1,1s.44775,1,1,1h9c.55225,0,1-.44727,1-1s-.44775-1-1-1Z"/>
+        <path d="M24,35h-9c-.55225,0-1,.44727-1,1s.44775,1,1,1h9c.55225,0,1-.44727,1-1s-.44775-1-1-1Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
+              </div>
+              <h3 className="text-xl font-bold mb-3 text-white">
+                Execution Speed & Throughput
+              </h3>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                We measure performance in seconds. From short-term project
+                surges to daily B2B fulfillment, our operations are tuned for
+                consistent, repeatable speed.
+              </p>
+            </div>
+          </div>
 
           {/* Import/Domestic Callout Box */}
           <div className="bg-blue-900 rounded-2xl p-8 md:p-12 flex flex-col md:flex-row items-center gap-8 border border-blue2">
