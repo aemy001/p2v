@@ -158,7 +158,7 @@ export default function P2VHome() {
                     </h4>
                     <p className="text-gray-600 text-sm">
                       Optimized ground-only logistics for the US market. No
-                      rail, no exports—just pure domestic speed.
+                      rail, no exports just pure domestic speed.
                     </p>
                   </div>
                 </div>
