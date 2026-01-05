@@ -60,7 +60,7 @@ const TestimonialsSection = () => {
         </div>
     ),
     customPaging: i => (
-        <div className="w-3 h-3 rounded-full bg-blue-200 hover:bg-blue-600 transition-all duration-300 dot-trigger"></div>
+        <div className="w-3 h-3 rounded-full bg-blue-200 hover:bg-blue1 transition-all duration-300 dot-trigger"></div>
     )
   };
 
@@ -82,8 +82,7 @@ const TestimonialsSection = () => {
         </div>
 
         {/* Slider Container */}
-        {/* We add custom styles to target the active dot specifically */}
-        <div className=" relative z-10 [&_.slick-active_.dot-trigger]:bg-blue-600 [&_.slick-active_.dot-trigger]:w-6">
+        <div className=" relative z-10 [&_.slick-active_.dot-trigger]:bg-blue1 [&_.slick-active_.dot-trigger]:w-6">
           <Slider {...settings}>
             {testimonials.map((item) => (
               // Important: Add padding to the wrapper div so shadows don't get cut off by overflow:hidden
@@ -108,12 +107,12 @@ const TestimonialsSection = () => {
                   {/* Author Info */}
                   <div className="relative z-10 flex items-center">
                       {/* Optional: Add an avatar placeholder if you have images later */}
-                      {/* <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold mr-4">{item.author.charAt(0)}</div> */}
+                      {/* <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-blue1 font-bold mr-4">{item.author.charAt(0)}</div> */}
                       <div>
                         <p className="font-bold text-gray-900 text-lg">
                         {item.author}
                         </p>
-                        <p className="text-blue-600 text-sm font-medium">
+                        <p className="text-blue1 text-sm font-medium">
                         {item.role}
                         </p>
                     </div>

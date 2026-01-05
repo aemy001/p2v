@@ -1,3 +1,5 @@
+
+
 import React, { useState } from "react";
 import {
   Truck,
@@ -14,7 +16,7 @@ import {
   Coffee,
   HeartPulse,
 } from "lucide-react";
-import HowItWorks from "../components/HowItWorks";
+import HowItWorks from "@/components/HowItWorksOld";
 import TestimonialsSection from "@/components/Testimonials";
 
 export default function P2VHome() {
@@ -30,25 +32,22 @@ export default function P2VHome() {
 
   return (
     <main className="bg-white text-gray-900 font-sans">
-      {/* HERO SECTION */}
-      <section className="relative bg-linear-to-r from-blue-900 via-blue-800 to-blue-700 text-white py-32 px-6 overflow-hidden flex items-center justify-center min-h-screen">
-        {/* Video Background */}
+    
+      <section className="relative bg-linear-to-r from-blue-900 via-blue1 to-blue2 text-white py-32 px-6 overflow-hidden flex items-center justify-center min-h-screen">
+    
         <video
           autoPlay
           loop
           muted
           playsInline
           className="absolute top-0 left-0 w-full h-full object-cover z-0"
-        >
+        > 
           <source src="/herovideo.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-
-        {/* Overlay */}
-        <div className="absolute top-0 left-0 w-full h-full bg-black/40 z-5" />
-
-        {/* Background Blurs */}
-        <div className="absolute top-0 right-0 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 z-10" />
+ 
+        <div className="absolute top-0 left-0 w-full h-full bg-black/40 z-5" /> 
+        <div className="absolute top-0 right-0 w-96 h-96 bg-blue1/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 z-10" />
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl translate-y-1/2 -translate-x-1/3 z-10" />
 
         {/* Content */}
@@ -84,147 +83,145 @@ export default function P2VHome() {
         </div>
       </section>
 
-      {/* WHAT IS 3PL SECTION */}
-      <section
-        id="what-is-3pl"
-        className="py-24 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden"
-      >
-        {/* Bottom-left background decoration */}
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-100 rounded-full blur-3xl opacity-30 translate-y-1/2 -translate-x-1/2"></div>
-        {/* Background decoration */}
-        <div className="absolute top-0 right-0 w-96 h-96 bg-blue-50 rounded-full filter blur-3xl opacity-30 -translate-y-1/2 translate-x-1/2"></div>
+    <section
+      id="what-is-3pl"
+      className="py-24 bg-linear-to-br from-gray-50 to-white relative overflow-hidden"
+    >
+      {/* Bottom-left background decoration */}
+      <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-100 rounded-full blur-3xl opacity-30 translate-y-1/2 -translate-x-1/2"></div>
+      {/* Background decoration */}
+      <div className="absolute top-0 right-0 w-96 h-96 bg-blue-50 rounded-full filter blur-3xl opacity-30 -translate-y-1/2 translate-x-1/2"></div>
 
-        <div className="max-w-7xl mx-auto px-6 relative z-10">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            {/* Left Content */}
-            <div>
-              {/* <div className="inline-block mb-4">
-          <span className="text-xs font-bold text-blue-600 uppercase tracking-wider bg-blue-50 px-4 py-2 rounded-full">
-            Understanding 3PL
-          </span>
-        </div> */}
+      <div className="max-w-7xl mx-auto px-6 relative z-10">
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
+          {/* Left Content */}
+          <div>
+            <h2 className="text-4xl md:text-5xl font-black mb-6 text-gray-900 leading-tight">
+              What is <span className="text-blue1">3PL?</span>
+            </h2>
 
-              <h2 className="text-4xl md:text-5xl font-black mb-6 text-gray-900 leading-tight">
-                What is <span className="text-blue-600">3PL?</span>
-              </h2>
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
+              Third-party logistics (3PL) refers to the outsourcing of inventory management, 
+              fulfillment, and transportation. At P2V, we provide the centralized inventory 
+              and strategic distribution model needed to achieve rapid business growth.
+            </p>
 
-              <p className="text-xl text-gray-700 leading-relaxed mb-6">
-                Third-party logistics (3PL) is the outsourcing of logistics
-                operations to a specialized provider. At P2V, we manage your
-                entire supply chain from receiving inventory to delivering
-                products to end markets or retail channels.
-              </p>
+            <p className="text-gray-600 leading-relaxed mb-8">
+              By letting P2V handle the operational burdens of the supply chain—from 
+              coordinating vendor shipments to optimizing delivery routes—you can redirect 
+              your resources toward identifying new customer bases and developing new products.
+            </p>
 
-              <p className="text-gray-600 leading-relaxed mb-10">
-                Rather than managing warehousing, transportation, and
-                fulfillment yourself, you partner with P2V. This allows your
-                team to focus on what you do best: growing your business and
-                serving customers.
-              </p>
-
-              <div className="space-y-5">
-                <div className="flex gap-4 items-start group">
-                  <div className="shrink-0 w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center group-hover:bg-green-200 transition-colors">
-                    <CheckCircle className="text-green-600" size={20} />
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-gray-900 mb-1">
-                      Reduce Operational Burden
-                    </h4>
-                    <p className="text-gray-600 text-sm">
-                      Outsource complex logistics tasks and eliminate overhead
-                    </p>
-                  </div>
+            <div className="space-y-5 mb-10">
+              <div className="flex gap-4 items-start group">
+                <div className="shrink-0 w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center group-hover:bg-green-200 transition-colors">
+                  <CheckCircle className="text-green-600" size={20} />
                 </div>
-
-                <div className="flex gap-4 items-start group">
-                  <div className="shrink-0 w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center group-hover:bg-green-200 transition-colors">
-                    <CheckCircle className="text-green-600" size={20} />
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-gray-900 mb-1">
-                      Improve Fulfillment Accuracy
-                    </h4>
-                    <p className="text-gray-600 text-sm">
-                      Precision processes that minimize errors and maximize
-                      efficiency
-                    </p>
-                  </div>
+                <div>
+                  <h4 className="font-bold text-gray-900 mb-1">
+                    Reduce Operational Burden
+                  </h4>
+                  <p className="text-gray-600 text-sm">
+                    Outsource complex supply chain tasks and eliminate warehouse overhead.
+                  </p>
                 </div>
+              </div>
 
-                <div className="flex gap-4 items-start group">
-                  <div className="shrink-0 w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center group-hover:bg-green-200 transition-colors">
-                    <CheckCircle className="text-green-600" size={20} />
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-gray-900 mb-1">
-                      Focus on Core Business
-                    </h4>
-                    <p className="text-gray-600 text-sm">
-                      Let P2V handle the logistics while you drive growth
-                    </p>
-                  </div>
+              <div className="flex gap-4 items-start group">
+                <div className="shrink-0 w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center group-hover:bg-green-200 transition-colors">
+                  <CheckCircle className="text-green-600" size={20} />
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-900 mb-1">
+                    Global Supply Chain Support
+                  </h4>
+                  <p className="text-gray-600 text-sm">
+                    Leverage expertise in import, export, and customs procedures.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-4 items-start group">
+                <div className="shrink-0 w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center group-hover:bg-green-200 transition-colors">
+                  <CheckCircle className="text-green-600" size={20} />
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-900 mb-1">
+                    Real-Time Visibility
+                  </h4>
+                  <p className="text-gray-600 text-sm">
+                    Get constant updates on the movement of inventory across your network.
+                  </p>
                 </div>
               </div>
             </div>
 
-            {/* Right Grid */}
-            <div className="grid grid-cols-2 gap-6 auto-rows-fr">
-              {/* Card 01 */}
-              <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow border border-gray-100 group h-full">
-                <div className="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-4 group-hover:bg-blue-100 transition-colors">
-                  <span className="text-2xl font-black text-blue-600">01</span>
-                </div>
-                <h3 className="font-bold text-gray-900 text-lg mb-2">
-                  Receiving
-                </h3>
-                <p className="text-sm text-gray-600 leading-relaxed">
-                  Inventory intake and thorough inspection processes
-                </p>
-              </div>
+            {/* Note about 4PL */}
+            <div className="p-4 bg-blue-50 rounded-xl border-l-4 border-blue-500">
+              <p className="text-xs text-blue-800 leading-relaxed">
+                <span className="font-bold">NOTE:</span> Some companies also work with <strong>4PLs</strong> (Fourth-Party Logistics). 
+                While 3PLs focus on operations, 4PLs act as consultants to design and manage your entire logistics strategy.
+              </p>
+            </div>
+          </div>
 
-              {/* Card 02 */}
-              <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow border border-gray-100 group h-full ">
-                <div className="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-4 group-hover:bg-blue-100 transition-colors">
-                  <span className="text-2xl font-black text-blue-600">02</span>
-                </div>
-                <h3 className="font-bold text-gray-900 text-lg mb-2">
-                  Warehousing
-                </h3>
-                <p className="text-sm text-gray-600 leading-relaxed">
-                  Secure, climate-controlled storage solutions
-                </p>
+          {/* Right Grid */}
+          <div className="grid grid-cols-2 gap-6 auto-rows-fr">
+            {/* Card 01 */}
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow border border-gray-100 group h-full">
+              <div className="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-4 group-hover:bg-blue-100 transition-colors">
+                <span className="text-2xl font-black text-blue1">01</span>
               </div>
+              <h3 className="font-bold text-gray-900 text-lg mb-2">
+                Inventory Management
+              </h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Thorough intake, inspection, and centralized inventory logic.
+              </p>
+            </div>
 
-              {/* Card 03 */}
-              <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow border border-gray-100 group h-full">
-                <div className="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-4 group-hover:bg-blue-100 transition-colors">
-                  <span className="text-2xl font-black text-blue-600">03</span>
-                </div>
-                <h3 className="font-bold text-gray-900 text-lg mb-2">
-                  Order Processing
-                </h3>
-                <p className="text-sm text-gray-600 leading-relaxed">
-                  Accurate order preparation with quality control
-                </p>
+            {/* Card 02 */}
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow border border-gray-100 group h-full">
+              <div className="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-4 group-hover:bg-blue-100 transition-colors">
+                <span className="text-2xl font-black text-blue1">02</span>
               </div>
+              <h3 className="font-bold text-gray-900 text-lg mb-2">
+                Warehousing
+              </h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Strategic storage placement to reduce shipping zones and costs.
+              </p>
+            </div>
 
-              {/* Card 04 */}
-              <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow border border-gray-100 group h-full">
-                <div className="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-4 group-hover:bg-blue-100 transition-colors">
-                  <span className="text-2xl font-black text-blue-600">04</span>
-                </div>
-                <h3 className="font-bold text-gray-900 text-lg mb-2">
-                  Shipping
-                </h3>
-                <p className="text-sm text-gray-600 leading-relaxed">
-                  Optimized freight routing and distribution
-                </p>
+            {/* Card 03 */}
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow border border-gray-100 group h-full">
+              <div className="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-4 group-hover:bg-blue-100 transition-colors">
+                <span className="text-2xl font-black text-blue1">03</span>
               </div>
+              <h3 className="font-bold text-gray-900 text-lg mb-2">
+                Transportation
+              </h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Managing movement between supply chain points and carrier coordination.
+              </p>
+            </div>
+
+            {/* Card 04 */}
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow border border-gray-100 group h-full">
+              <div className="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-4 group-hover:bg-blue-100 transition-colors">
+                <span className="text-2xl font-black text-blue1">04</span>
+              </div>
+              <h3 className="font-bold text-gray-900 text-lg mb-2">
+                Fulfillment
+              </h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Optimized route planning and accurate delivery to your customers.
+              </p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
       <HowItWorks />
 
@@ -246,7 +243,7 @@ export default function P2VHome() {
             {/* Save Time & Money */}
             <div className="bg-white rounded-xl p-10 border border-gray-200 hover:shadow-xl transition">
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                <TrendingUp className="text-blue-600" size={32} />
+                <TrendingUp className="text-blue1" size={32} />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 Save Time & Money
@@ -276,7 +273,7 @@ export default function P2VHome() {
             {/* Expertise & Networks */}
             <div className="bg-white rounded-xl p-10 border border-gray-200 hover:shadow-xl transition">
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                <Users className="text-blue-600" size={32} />
+                <Users className="text-blue1" size={32} />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 Access Expertise & Networks
@@ -306,7 +303,7 @@ export default function P2VHome() {
             {/* Streamline Workflows */}
             <div className="bg-white rounded-xl p-10 border border-gray-200 hover:shadow-xl transition">
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                <Package className="text-blue-600" size={32} />
+                <Package className="text-blue1" size={32} />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 Streamline Fulfillment Workflows
@@ -335,7 +332,7 @@ export default function P2VHome() {
             {/* Improve Satisfaction */}
             <div className="bg-white rounded-xl p-10 border border-gray-200 hover:shadow-xl transition">
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                <CheckCircle className="text-blue-600" size={32} />
+                <CheckCircle className="text-blue1" size={32} />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 Improve Customer Satisfaction
@@ -440,7 +437,7 @@ export default function P2VHome() {
             {/* Retail Distribution */}
             <div className="group bg-white rounded-2xl p-8 border border-gray-200 hover:border-blue-300 hover:shadow-xl transition-all duration-300">
               <div className="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-100 transition-colors">
-                <ShoppingCart className="text-blue-600 w-7 h-7" />
+                <ShoppingCart className="text-blue1 w-7 h-7" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 Retail Distribution
@@ -455,7 +452,7 @@ export default function P2VHome() {
             {/* Manufacturing Supply */}
             <div className="group bg-white rounded-2xl p-8 border border-gray-200 hover:border-blue-300 hover:shadow-xl transition-all duration-300">
               <div className="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-100 transition-colors">
-                <Factory className="text-blue-600 w-7 h-7" />
+                <Factory className="text-blue1 w-7 h-7" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 Manufacturing Supply
@@ -471,7 +468,7 @@ export default function P2VHome() {
             {/* Event & Project Logistics */}
             <div className="group bg-white rounded-2xl p-8 border border-gray-200 hover:border-blue-300 hover:shadow-xl transition-all duration-300">
               <div className="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-100 transition-colors">
-                <Package className="text-blue-600 w-7 h-7" />
+                <Package className="text-blue1 w-7 h-7" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 Event & Project Logistics
@@ -486,7 +483,7 @@ export default function P2VHome() {
             {/* Seasonal Operations */}
             <div className="group bg-white rounded-2xl p-8 border border-gray-200 hover:border-blue-300 hover:shadow-xl transition-all duration-300">
               <div className="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-100 transition-colors">
-                <TrendingUp className="text-blue-600 w-7 h-7" />
+                <TrendingUp className="text-blue1 w-7 h-7" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 Seasonal Operations
@@ -501,7 +498,7 @@ export default function P2VHome() {
             {/* Food & Beverage */}
             <div className="group bg-white rounded-2xl p-8 border border-gray-200 hover:border-blue-300 hover:shadow-xl transition-all duration-300">
               <div className="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-100 transition-colors">
-                <Coffee className="text-blue-600 w-7 h-7" />
+                <Coffee className="text-blue1 w-7 h-7" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 Food & Beverage
@@ -517,7 +514,7 @@ export default function P2VHome() {
             {/* Health & Wellness */}
             <div className="group bg-white rounded-2xl p-8 border border-gray-200 hover:border-blue-300 hover:shadow-xl transition-all duration-300">
               <div className="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-100 transition-colors">
-                <HeartPulse className="text-blue-600 w-7 h-7" />
+                <HeartPulse className="text-blue1 w-7 h-7" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 Health & Wellness
@@ -537,7 +534,7 @@ export default function P2VHome() {
       <TestimonialsSection />
 
       {/* CTA SECTION */}
-      <section className="py-24 bg-linear-to-r from-blue-900 to-blue-800 text-white">
+      <section className="py-24 bg-linear-to-r from-blue-900 to-blue1 text-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-4xl font-black mb-6">
             Ready to Optimize Your Logistics?

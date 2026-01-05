@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Poppins ,Source_Sans_3 } from "next/font/google";
+import { Poppins , Montserrat } from "next/font/google";
 import Navigation from "@/components/Navbar";
 
 const poppins = Poppins({
@@ -9,6 +9,11 @@ const poppins = Poppins({
   weight: ["300", "400", "500", "600", "700", "900"],
   variable: "--font-poppins",
 });
+const montserrat = Montserrat({ 
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800", "900"],
+  variable: "--font-montserrat",
+}); 
 
 // const sans = Source_Sans_3({
 //   subsets: ["latin"],

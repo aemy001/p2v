@@ -6,6 +6,10 @@
   --accent: #f1a208;
   --muted: #7a8399;
   --surface: #f8fafc;
+  --blue1: #1e40af;
+  --blue2: #3b82f6;   
+    --font-poppins: 'Poppins', sans-serif;
+    --font-montserrat: 'Montserrat', sans-serif;
 }
 
 @theme inline {
@@ -14,6 +18,10 @@
   --color-accent: var(--accent);
   --color-muted: var(--muted);
   --color-surface: var(--surface);
+  --color-blue1: var(--blue1);
+  --color-blue2: var(--blue2);
+  --font-poppins: var(--font-poppins);
+  --font-montserrat: var(--font-montserrat);
 }
 
 html {
@@ -24,7 +32,12 @@ body {
   /* background-color: var(--color-primary); */
   color: var(--color-surface);
   -webkit-font-smoothing: antialiased;
+  font-family: var(--font-poppins);
 }
 button{
   cursor: pointer;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 600;
+  font-family: var(--font-montserrat) !important;
 }
