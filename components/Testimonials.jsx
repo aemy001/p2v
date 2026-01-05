@@ -2,12 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import { Quote, Star } from 'lucide-react';
 
-// Make sure these CSS files are imported in your project!
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
-
 const TestimonialsSection = () => {
-  // 1. Define the testimonial data structured for easy mapping
   const testimonials = [
     {
       id: 1,
@@ -21,7 +16,7 @@ const TestimonialsSection = () => {
       quote: "Since switching to P2V for warehousing, our inventory accuracy has hit 99.9%. The real-time visibility portal gives us complete peace of mind during peak season spikes.",
       author: "Mark Thompson",
       role: "Ops Director, Velocity Retail",
-      stars: 5,
+      stars: 4,
     },
     {
       id: 3,
@@ -31,29 +26,26 @@ const TestimonialsSection = () => {
       stars: 5,
     },
   ];
-
-  // 2. Configure Slick Slider settings
   const settings = {
     dots: true,
-    arrows: false, // Cleaner look without default arrows
+    arrows: false, 
     infinite: true,
     speed: 800,
-    slidesToShow: 2, // Show 2 at a time on desktop for a modern look
+    slidesToShow: 2, 
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 6000,
+    autoplaySpeed: 3000,
     pauseOnHover: true,
-    cssEase: "cubic-bezier(0.87, 0, 0.13, 1)", // Smooth, modern transition curve
+    cssEase: "cubic-bezier(0.87, 0, 0.13, 1)", 
     responsive: [
       {
-        breakpoint: 1024, // Tablets and smaller desktops
+        breakpoint: 1024,  
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
     ],
-    // Customizing the dots (pagination) to match brand blue
     appendDots: dots => (
         <div style={{ bottom: "-40px" }}>
             <ul className="flex justify-center gap-2"> {dots} </ul>
@@ -66,18 +58,17 @@ const TestimonialsSection = () => {
 
   return (
     <section className="py-24 bg-slate-50 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 relative">
-         {/* Decorative background element for "trendy" feel */}
+      <div className="max-w-7xl mx-auto px-6 relative"> 
         <div className="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 opacity-[0.03] pointer-events-none">
             <Quote size={400} className="text-blue-900" />
         </div>
 
         <div className="text-center mb-16 relative z-10">
           <h2 className="text-3xl md:text-4xl font-black text-blue-900 mb-4">
-            Testimonials
+          Client Testimonials
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Proven logistics success stories from our partners across the globe.
+            Proven logistics success stories from our partners across the nation.
           </p>
         </div>
 
@@ -86,7 +77,7 @@ const TestimonialsSection = () => {
           <Slider {...settings}>
             {testimonials.map((item) => (
               // Important: Add padding to the wrapper div so shadows don't get cut off by overflow:hidden
-              <div key={item.id} className="px-4 py-8 h-full">
+              <div key={item.id} className="px-4 py-8 h-full cursor-grab">
                 <div className="bg-white rounded-2xl p-8 md:p-10 border-l-[6px] border-blue-900 shadow-[0_10px_40px_-15px_rgba(0,0,0,0.1)] hover:shadow-[0_20px_50px_-20px_rgba(30,58,138,0.2)] transition-all duration-300 relative flex flex-col h-full">
                   
                   {/* Subtle background quote icon inside the card */}
