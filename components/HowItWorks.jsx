@@ -26,7 +26,7 @@ const HowItWorks = () => {
     {
       icon: <ShoppingCart   size={60} />,
       title: "The Market",
-      items: ["B2B Distribution", "Retail Fulfillment", "Final Destination"]
+      items: ["B2B Distribution", "Retail Fulfillment", "End-User Delivery."]
     }
   ];
 

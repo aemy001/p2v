@@ -122,7 +122,7 @@ const ValueAddedServices = () => {
           </g>
         </svg>
       ),
-      title: "Same-Day Pick, Pack & Ship",
+      title: "Rapid Outbound Fulfillment.",
       description:
         "Time-sensitive B2B orders are picked, packed, and shipped the same day based on cut-off times and operational priority.",
     },
