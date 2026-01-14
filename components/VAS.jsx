@@ -189,7 +189,7 @@ const ValueAddedServices = () => {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div className="max-w-2xl">
             <h2 className="text-blue-900 text-sm font-bold tracking-[0.2em] uppercase mb-4">
-              P2V Signature Services
+              PVL Signature Services
             </h2>
             <h3 className="text-4xl md:text-5xl font-black text-slate-900 leading-tight">
               Large enough to scale,{" "}
@@ -197,7 +197,7 @@ const ValueAddedServices = () => {
             </h3>
           </div>
           <p className="text-gray-500 font-medium max-w-sm border-l-2 border-blue1 pl-6">
-            P2V simplifies your domestic supply chain through high-velocity B2B
+            PVL simplifies your domestic supply chain through high-velocity B2B
             services and founder-led operational integrity.
           </p>
         </div>

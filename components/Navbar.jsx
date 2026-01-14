@@ -1,43 +1,42 @@
+"use client";
+
 import React, { useState } from "react";
+import Link from "next/link";
 import { Menu, X } from "lucide-react";
 
 export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const scrollToSection = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-      setMobileMenuOpen(false);
-    }
-  };
+  const closeMenu = () => setMobileMenuOpen(false);
 
   return (
     <nav className="sticky top-0 z-50 bg-white border-b text-gray-900 font-sans border-gray-200">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        <div className="text-2xl font-black text-blue-900">P2V</div>
+        <Link href="/" className="text-2xl font-black text-blue-900 cursor-pointer">
+          PVL
+        </Link>
 
-        <div className="hidden md:flex gap-8">
-          <button onClick={() => scrollToSection("what-is-3pl")} className="text-sm font-medium hover:text-blue1 transition">
+        <div className="hidden md:flex gap-10">
+          <Link href="/about" className="text-sm font-medium hover:text-blue1 transition">
             About Us
-          </button>
-          <button onClick={() => scrollToSection("Services")} className="text-sm font-medium hover:text-blue1 transition">
+          </Link>
+          <Link href="/services" className="text-sm font-medium hover:text-blue1 transition">
             Services
-          </button>
-          <button onClick={() => scrollToSection("how-it-works")} className="text-sm font-medium hover:text-blue1 transition">
+          </Link>
+          {/* <Link href="/how-it-works" className="text-sm font-medium hover:text-blue1 transition">
             How It Works
-          </button>
-          <button onClick={() => scrollToSection("benefits")} className="text-sm font-medium hover:text-blue1 transition">
+          </Link> */}
+          <Link href="/contact" className="text-sm font-medium hover:text-blue1 transition">
             Contact Us
-          </button>
+          </Link>
         </div>
 
-        <a
-          href="mailto:contact@p2vlogistics.com"
+        <Link
+          href="mailto:contact@pvllogistics.com"
           className="hidden md:block bg-blue1 text-white px-6 py-2 rounded font-bold hover:bg-blue2 transition"
         >
           Contact Us
-        </a>
+        </Link>
 
         <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden">
           {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -46,25 +45,26 @@ export default function Navigation() {
 
       {mobileMenuOpen && (
         <div className="md:hidden bg-white border-t border-gray-200 p-6 flex flex-col gap-4">
-          <button onClick={() => scrollToSection("what-is-3pl")} className="text-left font-medium hover:text-blue1">
-            About Us
-          </button>
-          <button onClick={() => scrollToSection("Services")} className="text-left font-medium hover:text-blue1">
+          <Link href="/about" onClick={closeMenu} className="font-medium hover:text-blue1">
+            About PVL
+          </Link>
+          <Link href="/services" onClick={closeMenu} className="font-medium hover:text-blue1">
             Services
-          </button>
-          <button onClick={() => scrollToSection("how-it-works")} className="text-left font-medium hover:text-blue1">
+          </Link>
+          <Link href="/how-it-works" onClick={closeMenu} className="font-medium hover:text-blue1">
             How It Works
-          </button>
-          <button onClick={() => scrollToSection("benefits")} className="text-left font-medium hover:text-blue1">
+          </Link>
+          <Link href="/contact" onClick={closeMenu} className="font-medium hover:text-blue1">
             Contact Us
-          </button>
+          </Link>
 
-          <a
-            href="mailto:contact@p2vlogistics.com"
+          <Link
+            href="/contact"
+            onClick={closeMenu}
             className="bg-blue1 text-white px-6 py-2 rounded font-bold text-center hover:bg-blue2 transition"
           >
             Contact Us
-          </a>
+          </Link>
         </div>
       )}
     </nav>

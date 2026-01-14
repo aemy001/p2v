@@ -13,14 +13,14 @@ const TestimonialsSection = () => {
     },
     {
       id: 2,
-      quote: "Since switching to P2V for warehousing, our inventory accuracy has hit 99.9%. The real-time visibility portal gives us complete peace of mind during peak season spikes.",
+      quote: "Since switching to PVL for warehousing, our inventory accuracy has hit 99.9%. The real-time visibility portal gives us complete peace of mind during peak season spikes.",
       author: "Mark Thompson",
       role: "Ops Director, Velocity Retail",
       stars: 4,
     },
     {
       id: 3,
-      quote: "P2V optimized our shipping routes and carrier selection, reducing our overall logistics spend by 18% in the first quarter alone. The ROI was immediate.",
+      quote: "PVL optimized our shipping routes and carrier selection, reducing our overall logistics spend by 18% in the first quarter alone. The ROI was immediate.",
       author: "David Rivera",
       role: "Supply Chain Mgr, Apex Mfg.",
       stars: 5,

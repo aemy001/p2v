@@ -39,7 +39,7 @@ const HowItWorks = () => {
         <div className="text-center mb-20">
           
           <h2 className="text-4xl md:text-5xl font-black text-blue-900 mb-6">
-            The P2V Logistics Flow
+            The PVL Logistics Flow
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             We treat the journey from manufacturer to market as a precise science, 

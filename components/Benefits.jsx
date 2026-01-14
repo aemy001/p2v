@@ -10,7 +10,7 @@ const Benefits = () => {
                 {/* Header Section */}
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl font-black text-blue-900 mb-6">
-                        Why Choose 3PL with P2V?
+                        Why Choose 3PL with PVL?
                     </h2>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
                         We’ve replaced VC-driven growth with founder-led stability. By applying 
@@ -38,7 +38,7 @@ const Benefits = () => {
                                         Founder-Led Integrity
                                     </h3>
                                     <p className="text-gray-600 text-sm leading-relaxed mb-4">
-                                        P2V is 100% founder-owned. We don&apos;t answer to venture capitalists pushing for growth at all costs we answer to you and your long-term success.
+                                        PVL is 100% founder-owned. We don&apos;t answer to venture capitalists pushing for growth at all costs we answer to you and your long-term success.
                                     </p>
                                     <div className="grid grid-cols-2 gap-2">
                                         {["Zero VC Interference", "Incentive Alignment", "Well-Capitalized", "Long-term Stability"].map((item, i) => (
