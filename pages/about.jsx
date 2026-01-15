@@ -92,21 +92,31 @@ const About = () => {
           </div>
           <div className="relative">
             <img 
-              src="/science2.jpeg" 
+              // src="/science2.jpeg" 
+              src="/image-two.jpg"
               alt="High Bay Racking" 
               className="rounded-2xl shadow-2xl w-full h-[500px] object-cover"
             />
-            {/* <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-lg shadow-xl border border-slate-100 hidden md:block">
+            <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-lg shadow-xl border border-slate-100 hidden md:block">
               <div className="flex items-center gap-4">
-                <div className="bg-blue-900 p-3 rounded-lg">
-                  <Warehouse className="text-white w-6 h-6" />
+                <div className="bg-blue-900 p-3 rounded-lg text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 64 64" width="40px" height="40px" className="fill-current">
+                  <g>
+                    <g id="Outline">
+                      <g>
+                        <path d="M55.63,22.92875c.30829.12231.65259.07953.92999-.10004.27002-.18994.44-.5.44-.82996v-4.40002c0-.40997-.25-.77002-.63-.92999l-24-9.59998c-.23999-.09003-.5-.09003-.73999,0L7.63,16.66874c-.38.15997-.63.52002-.63.92999v4.40002c0,.32996.16998.64001.44.82996.27002.18005.62.22003.92999.10004l.63-.25v28.32001c-1.09998,0-2,.89996-2,2v2c0,1.09998.90002,2,2,2h46c1.09998,0,2-.90002,2-2v-2c0-1.10004-.90002-2-2-2v-28.32001s.62872.24951.63.25ZM55,54.99876H9v-2h46v2ZM44,31.99876h-12c-.54999,0-1,.45001-1,1v8h-11c-.54999,0-1,.45001-1,1v9h-2v-21h30v21h-2v-18c0-.54999-.45001-1-1-1ZM33,40.99876v-7h10v7h-10ZM43,42.99876v8h-10v-8h10ZM31,42.99876v8h-10v-8h10ZM15,27.99876v-2h34v2H15ZM49,29.99876h1c.54999,0,1-.45001,1-1v-4c0-.54999-.45001-1-1-1H14c-.54999,0-1,.45001-1,1v4c0,.54999.45001,1,1,1h1v21h-4v-29.12l21-8.40002,21,8.40002v29.12h-4v-21ZM32.37,11.46873c-.12-.04999-.23999-.07001-.37-.07001s-.25.02002-.37.07001l-22.63,9.04999v-2.23999l23-9.20001,23,9.20001v2.23999l-22.63-9.04999Z" />
+                        <path d="M32,15.99876c-1.6543,0-3,1.3457-3,3s1.3457,3,3,3,3-1.3457,3-3-1.3457-3-3-3ZM32,19.99876c-.55176,0-1-.44873-1-1s.44824-1,1-1,1,.44873,1,1-.44824,1-1,1Z" />
+                      </g>
+                    </g>
+                  </g>
+                </svg>
                 </div>
                 <div>
                   <p className="text-2xl font-bold text-blue-900">500k+</p>
                   <p className="text-xs text-slate-500 font-bold uppercase tracking-tighter">Sq. Ft. Managed</p>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>
