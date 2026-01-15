@@ -202,19 +202,19 @@ const ValueAddedServices = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-gray-200 border border-gray-200 rounded-3xl overflow-hidden shadow-2xl">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-gray-200 border border-gray-200 rounded-3xl overflow-hidden">
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white p-10 hover:bg-blue-50 transition-colors duration-500 group"
-            >
+              className="bg-linear-to-br from-blue-50 to-white border border-blue-100 p-10   transition-colors duration-500 group"
+            > 
               <div className="mb-6 group-hover:rotate-6 transition-transform duration-300">
                 {service.icon}
               </div>
               <h4 className="text-xl font-bold text-slate-900 mb-4 uppercase tracking-tight">
                 {service.title}
               </h4>
-              <p className="text-gray-600 text-sm leading-relaxed">
+              <p className="text-gray-600 text-base leading-relaxed">
                 {service.description}
               </p>
             </div>

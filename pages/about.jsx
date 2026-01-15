@@ -41,28 +41,33 @@ const About = () => {
     <div className="bg-white font-sans text-slate-900">
       
       {/* 1. Hero / Introduction Section */}
-      <section className="relative h-[60vh] flex items-center overflow-hidden">
-        {/* Dark overlay for text readability */}
-        <div className="absolute inset-0 bg-slate-900/50 z-10" />
-        <img 
-          src="https://images.unsplash.com/photo-1553413077-190dd305871c?q=80&w=2070&auto=format&fit=crop" 
-          alt="High-end Warehouse Interior" 
-          className="absolute inset-0 w-full h-full object-cover"
-        />
-        <div className="container max-w-4xl text-center mx-auto px-6 relative z-20 text-white">
-          <div className=" ">
-      
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              About{" "}
-              <span className="text-blue-300">Us</span>
-            </h1>
-            <p className="text-xl text-slate-100 leading-relaxed  ">
-              Specializing in the high-stakes world of B2B import-to-domestic warehousing. 
-              We provide the enterprise-level infrastructure your supply chain demands.
-            </p>
-          </div>
-        </div>
-      </section>
+     <section className="relative h-[60vh] flex items-center overflow-hidden">
+  {/* Base Dark Overlay */}
+  <div className="absolute inset-0 bg-slate-900/40 z-5 pointer-events-none" />
+
+  {/* Soft Highlight Gradient for Depth */}
+  <div className="absolute inset-0 bg-gradient-to-br from-black/30 via-black/10 to-black/40 z-10 pointer-events-none mix-blend-multiply" />
+
+  {/* Image Background */}
+  <img 
+    src="https://images.unsplash.com/photo-1553413077-190dd305871c?q=80&w=2070&auto=format&fit=crop" 
+    alt="High-end Warehouse Interior" 
+    className="absolute inset-0 w-full h-full object-cover z-0"
+  />
+
+  <div className="container max-w-4xl text-center mx-auto px-6 relative z-20 text-white">
+    <div>
+      <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+        About <span className="text-blue-300">Us</span>
+      </h1>
+      <p className="text-xl text-slate-100 leading-relaxed">
+        Specializing in the high-stakes world of B2B import-to-domestic warehousing. 
+        We provide the enterprise-level infrastructure your supply chain demands.
+      </p>
+    </div>
+  </div>
+</section>
+
 
       {/* 2. Our Story Section */}
       <section className="py-24 container mx-auto px-6">
@@ -87,7 +92,7 @@ const About = () => {
           </div>
           <div className="relative">
             <img 
-              src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2070&auto=format&fit=crop" 
+              src="/science2.jpeg" 
               alt="High Bay Racking" 
               className="rounded-2xl shadow-2xl w-full h-[500px] object-cover"
             />
@@ -185,10 +190,10 @@ const About = () => {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-5 pt-4">
-                <button className="bg-blue1 text-white px-8 py-4 rounded  font-bold hover:bg-blue2 transition-all shadow-xl shadow-blue-900/20 flex items-center justify-center gap-3 group">
+                <button className="bg-blue1 text-white px-8 py-4 rounded-lg  font-bold hover:bg-blue2 transition-all shadow-xl shadow-blue-900/20 flex items-center justify-center gap-3 group">
                   Start Your Solution <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                 </button>
-                <button className="bg-white/5 backdrop-blur-md border border-white/10 text-white px-8 py-4 rounded-xl font-bold hover:bg-white/10 transition-all flex items-center justify-center gap-3">
+                <button className="bg-white/5 backdrop-blur-md border border-white/10 text-white px-8 py-4 rounded-lg font-bold hover:bg-white/10 transition-all flex items-center justify-center gap-3">
                   <Warehouse size={18} className="text-blue-300" /> View Our Services
                 </button> 
               </div>

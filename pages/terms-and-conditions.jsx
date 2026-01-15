@@ -1,7 +1,9 @@
+import Footer from '@/components/Footer';
 import React from 'react';
 
 const TermsOfService = () => {
   return (
+<>
     <div className="bg-white min-h-screen text-gray-800 font-sans">
       <div className="max-w-4xl mx-auto py-16 px-6">
         
@@ -159,6 +161,8 @@ const TermsOfService = () => {
         </div>
       </div>
     </div>
+<Footer/>
+</>
   );
 };
 

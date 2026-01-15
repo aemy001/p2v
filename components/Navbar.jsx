@@ -33,7 +33,7 @@ export default function Navigation() {
 
         <Link
           href="mailto:contact@pvllogistics.com"
-          className="hidden md:block bg-blue1 text-white px-6 py-2 rounded font-bold hover:bg-blue2 transition"
+          className="hidden md:block bg-blue1 text-white px-6 py-2 rounded-lg font-bold hover:bg-blue2 transition"
         >
           Contact Us
         </Link>
