@@ -39,16 +39,9 @@ const About = () => {
 
   return (
     <div className="bg-white font-sans text-slate-900">
-      
-      {/* 1. Hero / Introduction Section */}
-     <section className="relative h-[60vh] flex items-center overflow-hidden">
-  {/* Base Dark Overlay */}
+   <section className="relative h-[60vh] flex items-center overflow-hidden">
   <div className="absolute inset-0 bg-slate-900/40 z-5 pointer-events-none" />
-
-  {/* Soft Highlight Gradient for Depth */}
   <div className="absolute inset-0 bg-gradient-to-br from-black/30 via-black/10 to-black/40 z-10 pointer-events-none mix-blend-multiply" />
-
-  {/* Image Background */}
   <img 
     src="https://images.unsplash.com/photo-1553413077-190dd305871c?q=80&w=2070&auto=format&fit=crop" 
     alt="High-end Warehouse Interior" 
@@ -68,8 +61,6 @@ const About = () => {
   </div>
 </section>
 
-
-      {/* 2. Our Story Section */}
       <section className="py-24 container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-6">
@@ -146,16 +137,12 @@ const About = () => {
         </div>
       </section>
 
-      {/* 4. Values Section */}
       <section className="py-24 container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-center text-center items-center mb-16 gap-6">
           <div className="max-w-2xl">
             <h2 className="text-slate-900 font-bold text-xs tracking-[0.4em] uppercase mb-4">The CORE Pillars</h2>
             <h3 className="text-4xl font-bold text-blue-900">What it means to partner with us.</h3>
-          </div>
-          {/* <p className="text-slate-500 max-w-sm text-right  ">
-            Our values aren&apos;t just posters on the wall; they are the operational protocols we follow every day.
-          </p> */}
+          </div> 
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {values.map((value, idx) => (

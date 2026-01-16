@@ -23,10 +23,8 @@ export default function PVLHome() {
 
   return (
     <main className="bg-white text-gray-900 font-sans">
-{/* HERO SECTION */}
-{/* HERO SECTION */}
+
 <section className="relative text-white py-32 px-6 overflow-hidden flex items-center justify-center min-h-screen">
-  {/* Video Background */}
   <video
     autoPlay
     loop
