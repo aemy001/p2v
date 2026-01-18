@@ -39,7 +39,7 @@ const About = () => {
 
   return (
     <div className="bg-white font-sans text-slate-900">
-   <section className="relative h-[60vh] flex items-center overflow-hidden">
+   <section className="relative h-[50vh] flex items-center overflow-hidden">
   <div className="absolute inset-0 bg-slate-900/40 z-5 pointer-events-none" />
   <div className="absolute inset-0 bg-gradient-to-br from-black/30 via-black/10 to-black/40 z-10 pointer-events-none mix-blend-multiply" />
   <img 

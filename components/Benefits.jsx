@@ -21,7 +21,7 @@ const Benefits = () => {
                 <div className="grid lg:grid-cols-2 gap-12 ">
 
                     <div className=" flex flex-col items-center ">
-                        <Image src="/benefits.jpg" width={550} height={300} className='rounded-lg shadow-lg' alt='benefits' />
+                        <Image src="/benefits.webp" width={550} height={300} className='rounded-lg shadow-lg' alt='benefits' />
                     </div>
 
                     {/* Right Column: The Benefits Grid */}
