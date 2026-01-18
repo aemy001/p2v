@@ -221,7 +221,7 @@ export default function Services3PL() {
               <Users className="text-blue-600 mb-4 w-10 h-10" />
               <h3 className="text-xl font-bold mb-3 text-gray-900">Founder-Led Focus</h3>
               <p className="text-gray-600 leading-relaxed">
-                We aren't run by a board of investors. We are owner-operators who care about your margins as much as you do.
+                We aren&apos;t run by a board of investors. We are owner-operators who care about your margins as much as you do.
               </p>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
@@ -336,7 +336,7 @@ export default function Services3PL() {
           </p>
           <a
             href="mailto:contact@PVLlogistics.com"
-            className="inline-flex items-center justify-center bg-blue1 text-white px-10 py-4 rounded-lg font-bold text-lg shadow-lg shadow-blue1/20 hover:bg-blue-50 hover:-translate-y-1 hover:shadow-xl transition-all duration-300 group"
+            className="inline-flex items-center justify-center bg-blue1 text-white px-10 py-4 rounded-lg font-bold text-lg shadow-lg shadow-blue1/20 hover:bg-blue-900 hover:-translate-y-1 hover:shadow-xl transition-all duration-300 group"
           >
             Get in Touch with PVL
             <svg
