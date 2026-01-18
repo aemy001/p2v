@@ -64,7 +64,7 @@ export default function Services3PL() {
     },
     {
       name: "Home & Lifestyle",
-      img: "https://images.unsplash.com/photo-1581539250439-c923cd277c80?auto=format&fit=crop&q=80&w=800",
+      img: "https://images.pexels.com/photos/34577295/pexels-photo-34577295.jpeg?auto=compress&cs=tinysrgb&w=800",
       desc: "Handling of bulky SKUs and multi-box shipments."
     },
     {
