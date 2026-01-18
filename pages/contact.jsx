@@ -164,14 +164,7 @@ const Contact = () => {
                     <p className="text-sm text-slate-500">Customs Brokerage Support</p>
                   </div>
                 </div>
-              </div>
-
-              {/* <div className="pt-6">
-                <button className="bg-white border border-slate-200 text-slate-900 px-6 py-3 rounded-lg font-bold hover:bg-slate-100 transition-all flex items-center gap-2">
-                  <Truck className="w-5 h-5 text-blue1" />
-                  View All Locations
-                </button>
-              </div> */}
+              </div> 
             </div>
 
             {/* Map Visual */}
