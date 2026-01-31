@@ -51,14 +51,14 @@ const Contact = () => {
     {
       title: "Sales & Inquiries",
       description: "For new partnerships and enterprise solutions.",
-      email: "sales@Price Value Logistics.com",
+      email: "sales@pvl.com",
       phone: "+1 (888) 555-0123",
       icon: <Mail className="w-6 h-6" />
     },
     {
       title: "Operations Support",
       description: "Real-time assistance for active shipments.",
-      email: "ops@Price Value Logistics.com",
+      email: "ops@pvl.com",
       phone: "+1 (888) 555-0124",
       icon: <ShieldCheck className="w-6 h-6" />
     },
