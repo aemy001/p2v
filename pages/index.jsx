@@ -58,7 +58,7 @@ export default function PVLHome() {
     </p>
     <div className="flex items-center justify-center flex-col sm:flex-row gap-4">
       <a
-        href="mailto:contact@PVLlogistics.com"
+        href="mailto:contact@Price Value Logisticslogistics.com"
         className="bg-blue-400 text-blue-900 px-8 py-4 rounded-lg font-bold text-lg hover:bg-white transition-colors inline-block text-center"
       >
         Contact Us
@@ -86,7 +86,7 @@ export default function PVLHome() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-2">
             <h2 className="text-4xl md:text-5xl font-black text-blue-900 mb-6 tracking-tight">
-              How PVL Works
+              How We Work
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               We treat the journey from manufacturer to market as a precise science,
@@ -98,7 +98,7 @@ export default function PVLHome() {
           <div className="flex justify-center overflow-hidden">
             <img
               src="/howwework.png"
-              alt="PVL logistics workflow showing step by step process from manufacturer to market"
+              alt="Price Value Logistics logistics workflow showing step by step process from manufacturer to market"
               className="w-full max-w-7xl object-cover transition-transform duration-500 hover:scale-105"
               loading="lazy"
             />
@@ -261,7 +261,7 @@ export default function PVLHome() {
           {/* Header */}
           <div className="max-w-3xl mb-16">
             <h2 className="text-4xl font-black text-white mb-4">
-              What Sets PVL Apart
+              What Sets Price Value Logistics Apart
             </h2>
             <p className="text-blue-200 text-lg">
               Purpose-built 3PL execution backed by operational discipline and
@@ -323,13 +323,13 @@ export default function PVLHome() {
               {/* Glass Card */}
               <div className="relative h-full bg-blue/10  rounded-2xl p-12 border border-white/10 flex flex-col justify-between">
                 <p className="text-3xl leading-relaxed text-white">
-                  “PVL combines logistics science with business pragmatism. We
+                  “Price Value Logistics combines logistics science with business pragmatism. We
                   do not just move freight. We align operations with margins,
                   growth targets, and customer expectations.”
                 </p>
 
                 <div>
-                  <p className="font-bold text-white">PVL Leadership Team</p>
+                  <p className="font-bold text-white">Price Value Logistics Leadership Team</p>
                   <p className="text-blue-300 text-sm">
                     Operations and Strategy
                   </p>
@@ -341,7 +341,7 @@ export default function PVLHome() {
       </section>
 
       {/* TESTIMONIALS */}
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
 
       {/* CTA SECTION */}
       <section className="relative py-24 isolate overflow-hidden">
@@ -361,16 +361,16 @@ export default function PVLHome() {
           </h2>
 
           <p className="text-lg md:text-xl text-blue-100 mb-10 max-w-2xl mx-auto leading-relaxed">
-            Let PVL handle your 3PL needs. Direct contact, strategic
+            Let Price Value Logistics handle your 3PL needs. Direct contact, strategic
             partnerships, and proven results that drive your business forward.
           </p>
 
           {/* 3. Improved Button */}
           <a
-            href="mailto:contact@PVLlogistics.com"
+            href="mailto:contact@Price Value Logisticslogistics.com"
             className="inline-flex items-center justify-center bg-white text-blue-900 px-10 py-4 rounded-lg font-bold text-lg shadow-lg shadow-blue-900/20 hover:bg-blue-50 hover:-translate-y-1 hover:shadow-xl transition-all duration-300 group"
           >
-            Get in Touch with PVL
+            Get in Touch with Price Value Logistics
             {/* Optional Arrow Icon */}
             <svg
               className="w-5 h-5 ml-2 -mr-1 transition-transform group-hover:translate-x-1"

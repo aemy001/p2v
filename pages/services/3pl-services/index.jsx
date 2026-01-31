@@ -86,7 +86,7 @@ export default function Services3PL() {
     },
     {
       question: "Can you handle container drayage and imports?",
-      answer: "Yes. This is a core strength of PVL. We coordinate drayage from the port, handle container unloading (devanning), and palletize floor-loaded freight for immediate storage or cross-docking."
+      answer: "Yes. This is a core strength of Price Value Logistics. We coordinate drayage from the port, handle container unloading (devanning), and palletize floor-loaded freight for immediate storage or cross-docking."
     },
     {
       question: "Do you support EDI for retail compliance?",
@@ -118,7 +118,7 @@ export default function Services3PL() {
         <div className="max-w-7xl text-center relative z-20">
           <div className="mb-8">
             <span className="inline-block px-4 py-2 bg-blue-500/20 border border-blue-400/30 backdrop-blur-sm rounded-full text-sm font-bold uppercase tracking-wider text-blue-300">
-              PVL 3PL Services
+              Price Value Logistics 3PL Services
             </span>
           </div>
           <h1 className="text-4xl md:text-7xl font-black leading-tight mb-6">
@@ -131,7 +131,7 @@ export default function Services3PL() {
           </p>
           <div className="flex items-center justify-center gap-4">
             <a
-              href="mailto:contact@PVLlogistics.com"
+              href="mailto:contact@Price Value Logisticslogistics.com"
               className="bg-blue1 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-900 transition-all shadow-lg shadow-blue1/50"
             >
               Contact Our Team
@@ -148,7 +148,7 @@ export default function Services3PL() {
           </h2>
           <p className="text-xl text-gray-600 leading-relaxed">
             Third-Party Logistics (3PL) is the strategic outsourcing of your logistics operations. 
-            At PVL, we take over the heavy lifting receiving, storage, packing, and shipping allowing 
+            At Price Value Logistics, we take over the heavy lifting receiving, storage, packing, and shipping allowing 
             you to focus entirely on product development and sales. We don&apos;t just store your inventory; 
             we actively manage the flow of your goods to ensure <span className="text-blue1 font-bold">speed and accuracy</span>.
           </p>
@@ -164,7 +164,7 @@ export default function Services3PL() {
             <div className="flex justify-center items-center">
                 <img 
                     src="/3pl-services.png" 
-                    alt="PVL 3PL Process: Inbound, Storage, Fulfillment" 
+                    alt="Price Value Logistics 3PL Process: Inbound, Storage, Fulfillment" 
                     className="w-full max-w-6xl h-auto object-contain hover:scale-[1.01] transition-transform duration-500"
                 />
             </div>
@@ -208,11 +208,11 @@ export default function Services3PL() {
         </div>
       </section>
 
-      {/* --- THE PVL DIFFERENCE --- */}
+      {/* --- THE Price Value Logistics DIFFERENCE --- */}
       <section className="py-24 bg-slate-50 relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16">
-            <h2 className="text-4xl font-black text-gray-900 mb-4">The PVL Standard</h2>
+            <h2 className="text-4xl font-black text-gray-900 mb-4">The Price Value Logistics Standard</h2>
             <p className="text-lg text-gray-600">Operational Excellence. No Bureaucracy.</p>
           </div>
 
@@ -255,7 +255,7 @@ export default function Services3PL() {
                   alt={ind.name}
                   className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/40 to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-gray-900/90 via-gray-900/40 to-transparent" />
                 <div className="absolute bottom-0 left-0 p-6">
                   <h3 className="text-white font-bold text-lg mb-1">{ind.name}</h3>
                   <p className="text-gray-300 text-xs leading-snug">{ind.desc}</p>
@@ -331,14 +331,14 @@ export default function Services3PL() {
             Ready to Optimize Your Logistics?
           </h2>
           <p className="text-lg md:text-xl text-blue1 mb-10 max-w-2xl mx-auto leading-relaxed">
-            Let PVL handle your 3PL needs. Direct contact, strategic
+            Let Price Value Logistics handle your 3PL needs. Direct contact, strategic
             partnerships, and proven results that drive your business forward.
           </p>
           <a
-            href="mailto:contact@PVLlogistics.com"
+            href="mailto:contact@Price Value Logisticslogistics.com"
             className="inline-flex items-center justify-center bg-blue1 text-white px-10 py-4 rounded-lg font-bold text-lg shadow-lg shadow-blue1/20 hover:bg-blue-900 hover:-translate-y-1 hover:shadow-xl transition-all duration-300 group"
           >
-            Get in Touch with PVL
+            Get in Touch with Price Value Logistics
             <svg
               className="w-5 h-5 ml-2 -mr-1 transition-transform group-hover:translate-x-1"
               fill="none"

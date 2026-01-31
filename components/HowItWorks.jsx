@@ -61,7 +61,7 @@ const HowItWorks = () => {
         <div className="text-center mb-24">
           {/* Main Heading: Montserrat, blue1 */}
           <h2 className="text-4xl md:text-5xl font-black font-['Montserrat'] text-[#1e40af] mb-6 tracking-tight">
-            The PVL Workflow
+            The Price Value Logistics Workflow
           </h2>
           {/* Body Text: Poppins */}
           <p className="text-xl font-['Poppins'] text-gray-600 max-w-2xl mx-auto">

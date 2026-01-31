@@ -19,7 +19,7 @@ const PrivacyPolicy = () => {
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Introduction</h2>
             <p>
-              Price Value Logistics, LLC (&quot;PVL&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) respects your privacy and is committed to protecting it through our compliance with this policy. This Privacy Policy describes the types of information we may collect from you or that you may provide when you visit the website pvllogistics.com (our &quot;Website&quot;) or use our 3PL warehousing and fulfillment services (our &quot;Services&quot;), and our practices for collecting, using, maintaining, protecting, and disclosing that information.
+              Price Value Logistics, LLC (&quot;Price Value Logistics&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) respects your privacy and is committed to protecting it through our compliance with this policy. This Privacy Policy describes the types of information we may collect from you or that you may provide when you visit the website Price Value Logisticslogistics.com (our &quot;Website&quot;) or use our 3PL warehousing and fulfillment services (our &quot;Services&quot;), and our practices for collecting, using, maintaining, protecting, and disclosing that information.
             </p>
             <p>
               Please read this policy carefully to understand our policies and practices regarding your information and how we will treat it. If you do not agree with our policies and practices, your choice is not to use our Website or Services. By accessing or using this Website, you agree to this Privacy Policy.
@@ -87,7 +87,7 @@ const PrivacyPolicy = () => {
               <li><strong>To our subsidiaries and affiliates.</strong></li>
               <li><strong>To contractors, service providers, and other third parties</strong> we use to support our business (e.g., Warehouse Management System (WMS) providers, cloud hosting services, payment processors) and who are bound by contractual obligations to keep personal information confidential and use it only for the purposes for which we disclose it to them.</li>
               <li><strong>To Carriers:</strong> We share Consignee names and addresses with carriers (e.g., UPS, FedEx, USPS, LTL carriers) solely for the purpose of package delivery.</li>
-              <li><strong>To a buyer or other successor</strong> in the event of a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of PVL&apos;s assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding.</li>
+              <li><strong>To a buyer or other successor</strong> in the event of a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Price Value Logistics&apos;s assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding.</li>
               <li><strong>For Legal Reasons:</strong> To comply with any court order, law, or legal process, including to respond to any government or regulatory request.</li>
             </ul>
           </section>
@@ -118,7 +118,7 @@ const PrivacyPolicy = () => {
             
             <h3 className="text-lg font-bold text-gray-800 mt-4 mb-2">Note for End-Customers (Consignees)</h3>
             <p>
-              PVL generally acts as a &quot;Service Provider&quot; or &quot;Data Processor&quot; to our business clients (the Merchants). We process end-customer data solely on behalf of our clients to fulfill orders. If you are a customer of one of our clients and wish to exercise your privacy rights, please direct your request to the merchant from whom you purchased the product. We will assist our clients in fulfilling these requests as required by law.
+              Price Value Logistics generally acts as a &quot;Service Provider&quot; or &quot;Data Processor&quot; to our business clients (the Merchants). We process end-customer data solely on behalf of our clients to fulfill orders. If you are a customer of one of our clients and wish to exercise your privacy rights, please direct your request to the merchant from whom you purchased the product. We will assist our clients in fulfilling these requests as required by law.
             </p>
           </section>
 
@@ -137,7 +137,7 @@ const PrivacyPolicy = () => {
             <div className="bg-gray-50 p-6 mt-4 rounded-lg border border-gray-200">
               <p className="font-bold text-gray-900">Price Value Logistics, LLC</p>
               <p className="text-gray-600 mt-1">Attn: Privacy Compliance Officer</p>
-              <p className="text-gray-600 mt-1">Email: <a href="mailto:contact@pvllogistics.com" className="text-blue-600 hover:underline">contact@pvllogistics.com</a></p>
+              <p className="text-gray-600 mt-1">Email: <a href="mailto:contact@Price Value Logisticslogistics.com" className="text-blue-600 hover:underline">contact@Price Value Logisticslogistics.com</a></p>
             </div>
           </section>
 

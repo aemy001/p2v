@@ -159,7 +159,7 @@ const About = () => {
         </div>
       </section>
       
-  <TestimonialsSection />
+  {/* <TestimonialsSection /> */}
       {/* 5. NEW & IMPROVED ENTERPRISE CTA */}
       <section className="py-24 container mx-auto px-6">
         <div className="relative bg-slate-900 rounded-xl overflow-hidden min-h-[500px] flex items-center">

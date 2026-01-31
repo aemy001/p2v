@@ -55,7 +55,7 @@ const WhatIs3PL = () => {
 
             <p className="text-xl text-gray-700 leading-relaxed mb-6">
               Third-party logistics (3PL) is the strategic outsourcing of
-              supply chain operations. At PVL, we treat this as a{" "}
+              supply chain operations. At Price Value Logistics, we treat this as a{" "}
               <span className="font-bold text-blue-900">
                 formula for efficiency
               </span>
@@ -65,7 +65,7 @@ const WhatIs3PL = () => {
 
             <p className="text-gray-600 leading-relaxed mb-10">
               Rather than managing warehousing, transportation, and
-              fulfillment yourself, you partner with PVL. This allows your
+              fulfillment yourself, you partner with Price Value Logistics. This allows your
               team to focus on what you do best: growing your business and
               serving customers across the USA.
             </p>

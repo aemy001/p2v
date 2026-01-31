@@ -35,7 +35,7 @@ const HowItWorks = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-black text-blue-900 mb-6">
-            How PVL Works
+            How We Work
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Our streamlined process ensures efficient handling of your

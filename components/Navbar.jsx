@@ -49,7 +49,7 @@ export default function Navigation() {
             useDarkText ? "text-blue-900" : "text-white"
           }`}
         >
-          PVL
+          Price Value Logistics
         </Link>
 
         <div className="hidden md:flex gap-10">
@@ -65,7 +65,7 @@ export default function Navigation() {
         </div>
 
         <Link
-          href="mailto:contact@pvllogistics.com"
+          href="mailto:contact@Price Value Logisticslogistics.com"
           className="hidden md:block bg-blue1 text-white px-6 py-2 rounded-lg font-bold hover:bg-blue2 transition"
         >
           Contact Us

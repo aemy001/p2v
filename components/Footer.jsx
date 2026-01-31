@@ -7,10 +7,10 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           <div>
             <Link href="/" className="text-2xl font-black mb-4 inline-block text-blue-400 cursor-pointer">
-              PVL
+              Price Value Logistics
             </Link>
             <p className="text-gray-400">
-              At PVL, our mission is to synthesize complex B2B logistics into a high-velocity distribution engine. As your asset-based 3PL partner, we provide high-bay warehousing infrastructure engineered for domestic distribution. PVL applies scientific rigor to your supply chain, ensuring your assets move from our docks to your partners with elite precision and scale.
+              At Price Value Logistics, our mission is to synthesize complex B2B logistics into a high-velocity distribution engine. As your asset-based 3PL partner, we provide high-bay warehousing infrastructure engineered for domestic distribution. Price Value Logistics applies scientific rigor to your supply chain, ensuring your assets move from our docks to your partners with elite precision and scale.
             </p>
           </div>
 
@@ -19,7 +19,7 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-400">
         <li>
                 <Link href="/about-us" className="hover:text-blue-400 transition">
-                  About PVL
+                  About Price Value Logistics
                 </Link>
               </li>
               <li>
@@ -46,7 +46,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-bold mb-4 text-gray-200">Contact PVL</h4>
+            <h4 className="font-bold mb-4 text-gray-200">Contact Price Value Logistics</h4>
             <p className="text-gray-400 mb-2">
               Direct communication for personalized logistics solutions.
             </p>
@@ -54,16 +54,16 @@ export default function Footer() {
               Phone: +1 (555) 000-0000
             </p>
             <a
-              href="mailto:contact@PVLlogistics.com"
+              href="mailto:contact@Price Value Logisticslogistics.com"
               className="text-blue-400 font-bold hover:text-blue-300"
             >
-              Email: contact@PVLlogistics.com
+              Email: contact@Price Value Logisticslogistics.com
             </a>
           </div>
         </div>
 
         <div className="border-t border-gray-800 pt-8 text-center text-gray-500">
-          <p>&copy; 2026 PVL Logistics.</p>
+          <p>&copy; 2026 Price Value Logistics Logistics.</p>
         </div>
       </div>
     </footer>
