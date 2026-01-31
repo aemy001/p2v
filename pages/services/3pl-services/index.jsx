@@ -131,7 +131,7 @@ export default function Services3PL() {
           </p>
           <div className="flex items-center justify-center gap-4">
             <a
-              href="mailto:contact@Price Value Logisticslogistics.com"
+              href="mailto:contact@pvl.com"
               className="bg-blue1 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-900 transition-all shadow-lg shadow-blue1/50"
             >
               Contact Our Team
@@ -335,7 +335,7 @@ export default function Services3PL() {
             partnerships, and proven results that drive your business forward.
           </p>
           <a
-            href="mailto:contact@Price Value Logisticslogistics.com"
+            href="mailto:contact@pvl.com"
             className="inline-flex items-center justify-center bg-blue1 text-white px-10 py-4 rounded-lg font-bold text-lg shadow-lg shadow-blue1/20 hover:bg-blue-900 hover:-translate-y-1 hover:shadow-xl transition-all duration-300 group"
           >
             Get in Touch with Price Value Logistics

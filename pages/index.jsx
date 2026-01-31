@@ -58,7 +58,7 @@ export default function PVLHome() {
     </p>
     <div className="flex items-center justify-center flex-col sm:flex-row gap-4">
       <a
-        href="mailto:contact@Price Value Logisticslogistics.com"
+        href="mailto:contact@pvl.com"
         className="bg-blue-400 text-blue-900 px-8 py-4 rounded-lg font-bold text-lg hover:bg-white transition-colors inline-block text-center"
       >
         Contact Us
@@ -353,7 +353,7 @@ export default function PVLHome() {
         />
 
         {/* 2. Dark Blue Overlay (Gradient for depth) */}
-        <div className="absolute inset-0 -z-10 bg-gradient-to-r from-gray-950/80 to-blue-900/50" />
+        <div className="absolute inset-0 -z-10 bg-linear-to-r from-gray-950/80 to-blue-900/50" />
 
         <div className="max-w-4xl mx-auto px-6 text-center relative z-10">
           <h2 className="text-4xl md:text-5xl font-black mb-6 text-white tracking-tight">
@@ -367,7 +367,7 @@ export default function PVLHome() {
 
           {/* 3. Improved Button */}
           <a
-            href="mailto:contact@Price Value Logisticslogistics.com"
+            href="mailto:contact@pvl.com"
             className="inline-flex items-center justify-center bg-white text-blue-900 px-10 py-4 rounded-lg font-bold text-lg shadow-lg shadow-blue-900/20 hover:bg-blue-50 hover:-translate-y-1 hover:shadow-xl transition-all duration-300 group"
           >
             Get in Touch with Price Value Logistics

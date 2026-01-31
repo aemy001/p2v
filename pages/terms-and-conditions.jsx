@@ -154,7 +154,7 @@ const TermsOfService = () => {
               This website is operated by Price Value Logistics, LLC.
             </p>
             <p>
-              All feedback, comments, requests for technical support, and other communications relating to the Services should be directed to: <a href="mailto:contact@Price Value Logisticslogistics.com" className="text-blue-600 hover:underline">contact@Price Value Logisticslogistics.com</a>
+              All feedback, comments, requests for technical support, and other communications relating to the Services should be directed to: <a href="mailto:contact@pvl.com" className="text-blue-600 hover:underline">contact@pvl.com</a>
             </p>
           </section>
 

@@ -137,7 +137,7 @@ const PrivacyPolicy = () => {
             <div className="bg-gray-50 p-6 mt-4 rounded-lg border border-gray-200">
               <p className="font-bold text-gray-900">Price Value Logistics, LLC</p>
               <p className="text-gray-600 mt-1">Attn: Privacy Compliance Officer</p>
-              <p className="text-gray-600 mt-1">Email: <a href="mailto:contact@Price Value Logisticslogistics.com" className="text-blue-600 hover:underline">contact@Price Value Logisticslogistics.com</a></p>
+              <p className="text-gray-600 mt-1">Email: <a href="mailto:contact@pvl.com" className="text-blue-600 hover:underline">contact@pvl.com</a></p>
             </div>
           </section>
 

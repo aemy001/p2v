@@ -54,10 +54,10 @@ export default function Footer() {
               Phone: +1 (555) 000-0000
             </p>
             <a
-              href="mailto:contact@Price Value Logisticslogistics.com"
+              href="mailto:contact@pvl.com"
               className="text-blue-400 font-bold hover:text-blue-300"
             >
-              Email: contact@Price Value Logisticslogistics.com
+              Email: contact@pvl.com
             </a>
           </div>
         </div>
