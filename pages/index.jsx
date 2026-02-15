@@ -1,8 +1,5 @@
 import React, { useState } from "react";
-import {
-  CheckCircle,
-  Anchor,
-} from "lucide-react";
+import { CheckCircle, Anchor } from "lucide-react";
 import HowItWorks from "@/components/HowItWorks";
 import TestimonialsSection from "@/components/Testimonials";
 import Benefits from "@/components/Benefits";
@@ -23,59 +20,56 @@ export default function PVLHome() {
 
   return (
     <main className="bg-white text-gray-900 font-sans">
+      <section className="relative text-white py-32 px-6 overflow-hidden flex items-center justify-center min-h-screen">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        >
+          <source src="/herovideo.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
 
-<section className="relative text-white py-32 px-6 overflow-hidden flex items-center justify-center min-h-screen">
-  <video
-    autoPlay
-    loop
-    muted
-    playsInline
-    className="absolute top-0 left-0 w-full h-full object-cover z-0"
-  >
-    <source src="/herovideo.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
+        <div className="absolute top-0 left-0 w-full h-full bg-linear-to-br from-black/30 via-black/20 to-black/40 z-5 pointer-events-none" />
 
-  <div className="absolute top-0 left-0 w-full h-full bg-linear-to-br from-black/30 via-black/20 to-black/40 z-5 pointer-events-none" />
+        <div className="absolute top-0 right-0 w-96 h-96 bg-blue1/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 z-10" />
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl translate-y-1/2 -translate-x-1/3 z-10" />
 
-  <div className="absolute top-0 right-0 w-96 h-96 bg-blue1/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 z-10" />
-  <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl translate-y-1/2 -translate-x-1/3 z-10" />
+        <div className="absolute top-0 left-0 w-full h-full bg-linear-to-br from-black/50 via-black/10 to-black/50 z-15 pointer-events-none mix-blend-multiply" />
 
-  <div className="absolute top-0 left-0 w-full h-full bg-linear-to-br from-black/50 via-black/10 to-black/50 z-15 pointer-events-none mix-blend-multiply" />
-
-  <div className="max-w-7xl text-center relative z-20">
-    <div className="mb-8">
-      <span className="inline-block px-4 py-2 bg-blue-500/30 border border-blue-300 backdrop-blur-xs rounded-full text-sm font-bold uppercase tracking-wider">
-        Premier 3PL Provider
-      </span>
-    </div>
-    <h1 className="text-4xl md:text-7xl font-black leading-tight mb-6">
-      Complex <span className="text-blue-300">3PL Logistics,</span> <br />
-      Made Simple.
-    </h1>
-    <p className="max-w-3xl text-xl text-white leading-relaxed mb-10 mx-auto">
-      Helping businesses streamline logistics with precision and expertise. We handle warehousing, transportation, fulfillment, and returns so you can focus on growth.
-    </p>
-    <div className="flex items-center justify-center flex-col sm:flex-row gap-4">
-      <a
-        href="mailto:contact@pvl.com"
-        className="bg-blue-400 text-blue-900 px-8 py-4 rounded-lg font-bold text-lg hover:bg-white transition-colors inline-block text-center"
-      >
-        Contact Us
-      </a>
-      <button
-        onClick={() => scrollToSection("science")}
-        className="border-2 border-white text-white px-8 py-3.5 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors"
-      >
-        Our Methodology
-      </button>
-    </div>
-  </div>
-</section>
-
-
-
-
+        <div className="max-w-7xl text-center relative z-20">
+          <div className="mb-8">
+            <span className="inline-block px-4 py-2 bg-blue-500/30 border border-blue-300 backdrop-blur-xs rounded-full text-sm font-bold uppercase tracking-wider">
+              Premier 3PL Provider
+            </span>
+          </div>
+          <h1 className="text-4xl md:text-7xl font-black leading-tight mb-6">
+            Complex <span className="text-blue-300">3PL Logistics,</span> <br />
+            Made Simple.
+          </h1>
+          <p className="max-w-3xl text-xl text-white leading-relaxed mb-10 mx-auto">
+            Helping businesses streamline logistics with precision and
+            expertise. We handle warehousing, transportation, fulfillment, and
+            returns so you can focus on growth.
+          </p>
+          <div className="flex items-center justify-center flex-col sm:flex-row gap-4">
+            <a
+              href="mailto:contact@pvl.com"
+              className="bg-blue-400 text-blue-900 px-8 py-4 rounded-lg font-bold text-lg hover:bg-white transition-colors inline-block text-center"
+            >
+              Contact Us
+            </a>
+            <button
+              onClick={() => scrollToSection("science")}
+              className="border-2 border-white text-white px-8 py-3.5 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors"
+            >
+              Our Methodology
+            </button>
+          </div>
+        </div>
+      </section>
 
       <WhatIs3PL />
 
@@ -89,12 +83,11 @@ export default function PVLHome() {
               How We Work
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              We treat the journey from manufacturer to market as a precise science,
-              eliminating friction at every touchpoint.
+              We treat the journey from manufacturer to market as a precise
+              science, eliminating friction at every touchpoint.
             </p>
           </div>
 
-          {/* How it works image */}
           <div className="flex justify-center overflow-hidden">
             <img
               src="/howwework.png"
@@ -114,7 +107,6 @@ export default function PVLHome() {
 
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="grid lg:grid-cols-2 gap-16 items-center mb-16">
-            {/* Text Side */}
             <div>
               <h2 className="text-4xl md:text-5xl font-black mb-6 leading-tight">
                 The Science of <br />
@@ -147,10 +139,17 @@ export default function PVLHome() {
             </div>
           </div>
           <div className="grid md:grid-cols-3 gap-8 mb-16">
-            {/* Pillar 1 */}
             <div className="bg-gray-800/50 border border-gray-700 p-8 rounded-xl hover:bg-gray-800 hover:border-blue-500/50 transition duration-300">
               <div className="w-12 h-12 bg-blue-900/50 rounded-lg flex items-center justify-center mb-6 text-blue-400">
-                <svg id="Outline" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 64 64" width="40px" height="40px" className="fill-current" >
+                <svg
+                  id="Outline"
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  viewBox="0 0 64 64"
+                  width="40px"
+                  height="40px"
+                  className="fill-current"
+                >
                   <path d="M33,33h-8c-.55273,0-1,.44775-1,1v4c0,.55225.44727,1,1,1h8c.55273,0,1-.44775,1-1v-4c0-.55225-.44727-1-1-1ZM32,37h-6v-2h6v2Z" />
                   <path d="M52,29.29999v-7.29999c0-.16003-.03998-.31-.10999-.45001l-3-6c-.17004-.34003-.51001-.54999-.89001-.54999h-23.06c-.5-4.48999-4.32001-8-8.94-8-4.96002,0-9,4.03998-9,9,0,5.12,5.23999,12.65997,7.34998,15.5-.81.52997-1.34998,1.45001-1.34998,2.5,0,1.64996,1.34998,3,3,3s3-1.35004,3-3c0-1.04999-.53998-1.97003-1.34998-2.5.58997-.81,1.44-1.98999,2.34998-3.38v13.88c0,.54999.45001,1,1,1h24.31c1.73999,3.07996,3.84003,5.53998,3.92999,5.64996.19.22003.47003.35004.76001.35004s.57001-.13.76001-.35004c.25-.29999,6.23999-7.33997,6.23999-12.64996,0-3.15002-2.07001-5.85004-5-6.70001ZM47.38,17l2,4h-7.66003l-1.32996-4h6.98999ZM32,22.15997l1.71997-5.15997h4.56006l1.71997,5.15997v4.35999l-3.63-1.44995c-.12-.05005-.23999-.07001-.37-.07001s-.25.01996-.37.07001l-3.63,1.44995v-4.35999ZM24.92999,17h6.67999l-1.32996,4h-6.45001c.56-1.38.95001-2.73999,1.09998-4ZM16,35c-.54999,0-1-.45001-1-1s.45001-1,1-1,1,.45001,1,1-.45001,1-1,1ZM16,30.34998c-1.96997-2.64996-7-9.83997-7-14.34998,0-3.85999,3.14001-7,7-7s7,3.14001,7,7c0,4.51001-5.03003,11.70001-7,14.34998ZM22,41v-16.20001c.33002-.59003.64001-1.19.94-1.79999h7.06v5c0,.32996.16998.64001.44.82996.27002.18005.63.22003.92999.10004l4.63-1.85004,4.63,1.85004c.12.04999.23999.07001.37.07001.20001,0,.39001-.06.56-.17004.27002-.18994.44-.5.44-.82996v-5h8v6c-3.85999,0-7,3.14001-7,7,0,1.44.44,3.12,1.28998,5h-22.28998ZM50,46.39996c-.82001-1.04999-2.14001-2.85999-3.21997-4.87-1.18005-2.20001-1.78003-4.06-1.78003-5.52997,0-2.76001,2.23999-5,5-5,.28003,0,.56.01996.84003.07996,2.40997.40002,4.15997,2.47003,4.15997,4.92004,0,3.54999-3.44,8.39001-5,10.39996Z" />
                   <path d="M47,36c0,1.6543,1.3457,3,3,3s3-1.3457,3-3-1.3457-3-3-3-3,1.3457-3,3ZM51,36c0,.55127-.44824,1-1,1s-1-.44873-1-1,.44824-1,1-1,1,.44873,1,1Z" />
@@ -178,7 +177,14 @@ export default function PVLHome() {
             {/* Pillar 2 */}
             <div className="bg-gray-800/50 border border-gray-700 p-8 rounded-xl hover:bg-gray-800 hover:border-blue-500/50 transition duration-300">
               <div className="w-12 h-12 bg-blue-900/50 rounded-lg flex items-center justify-center mb-6 text-blue-400">
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 64 64" width="40px" height="40px" className="fill-current">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  viewBox="0 0 64 64"
+                  width="40px"
+                  height="40px"
+                  className="fill-current"
+                >
                   <g>
                     <g id="Outline">
                       <g>
@@ -202,7 +208,14 @@ export default function PVLHome() {
             {/* Pillar 3 */}
             <div className="bg-gray-800/50 border border-gray-700 p-8 rounded-xl hover:bg-gray-800 hover:border-blue-500/50 transition duration-300">
               <div className="w-12 h-12 bg-blue-900/50 rounded-lg flex items-center justify-center mb-6 text-blue-400">
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 64 64" width="40px" height="40px" className="fill-current">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                  viewBox="0 0 64 64"
+                  width="40px"
+                  height="40px"
+                  className="fill-current"
+                >
                   <g>
                     <g id="Outline">
                       <g>
@@ -249,16 +262,13 @@ export default function PVLHome() {
       <VAS />
       <Benefits />
 
-
       <section
         className="relative py-24 bg-cover bg-center"
         style={{ backgroundImage: "url('/topography.svg')" }}
       >
-        {/* Overlay */}
         <div className="absolute inset-0 bg-blue-900/95" />
 
         <div className="relative max-w-7xl mx-auto px-6">
-          {/* Header */}
           <div className="max-w-3xl mb-16">
             <h2 className="text-4xl font-black text-white mb-4">
               What Sets Price Value Logistics Apart
@@ -269,9 +279,7 @@ export default function PVLHome() {
             </p>
           </div>
 
-          {/* Content */}
           <div className="grid lg:grid-cols-2 gap-12 items-stretch">
-            {/* Left Cards */}
             <div className="grid sm:grid-cols-2 gap-6">
               {[
                 {
@@ -311,25 +319,24 @@ export default function PVLHome() {
 
             {/* Right Statement Card */}
             <div className="relative h-120 rounded-2xl overflow-hidden">
-              {/* Background Image */}
               <div
                 className="absolute inset-0 bg-cover bg-left"
                 style={{ backgroundImage: "url('/people.webp')" }}
               />
 
-              {/* Dark Overlay */}
               <div className="absolute inset-0 bg-slate-900/70" />
-
-              {/* Glass Card */}
               <div className="relative h-full bg-blue/10  rounded-2xl p-12 border border-white/10 flex flex-col justify-between">
                 <p className="text-3xl leading-relaxed text-white">
-                  “Price Value Logistics combines logistics science with business pragmatism. We
-                  do not just move freight. We align operations with margins,
-                  growth targets, and customer expectations.”
+                  “Price Value Logistics combines logistics science with
+                  business pragmatism. We do not just move freight. We align
+                  operations with margins, growth targets, and customer
+                  expectations.”
                 </p>
 
                 <div>
-                  <p className="font-bold text-white">Price Value Logistics Leadership Team</p>
+                  <p className="font-bold text-white">
+                    Price Value Logistics Leadership Team
+                  </p>
                   <p className="text-blue-300 text-sm">
                     Operations and Strategy
                   </p>
@@ -340,19 +347,16 @@ export default function PVLHome() {
         </div>
       </section>
 
-      {/* TESTIMONIALS */}
       {/* <TestimonialsSection /> */}
 
       {/* CTA SECTION */}
       <section className="relative py-24 isolate overflow-hidden">
-        {/* 1. Background Image */}
         <img
-          src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+          src="/cta_home.webp"
           alt="Logistics Warehouse"
           className="absolute inset-0 -z-10 h-full w-full object-cover"
         />
 
-        {/* 2. Dark Blue Overlay (Gradient for depth) */}
         <div className="absolute inset-0 -z-10 bg-linear-to-r from-gray-950/80 to-blue-900/50" />
 
         <div className="max-w-4xl mx-auto px-6 text-center relative z-10">
@@ -361,31 +365,34 @@ export default function PVLHome() {
           </h2>
 
           <p className="text-lg md:text-xl text-blue-100 mb-10 max-w-2xl mx-auto leading-relaxed">
-            Let Price Value Logistics handle your 3PL needs. Direct contact, strategic
-            partnerships, and proven results that drive your business forward.
+            Let Price Value Logistics handle your 3PL needs. Direct contact,
+            strategic partnerships, and proven results that drive your business
+            forward.
           </p>
 
-          {/* 3. Improved Button */}
           <a
             href="mailto:contact@pvl.com"
             className="inline-flex items-center justify-center bg-white text-blue-900 px-10 py-4 rounded-lg font-bold text-lg shadow-lg shadow-blue-900/20 hover:bg-blue-50 hover:-translate-y-1 hover:shadow-xl transition-all duration-300 group"
           >
             Get in Touch with Price Value Logistics
-            {/* Optional Arrow Icon */}
             <svg
               className="w-5 h-5 ml-2 -mr-1 transition-transform group-hover:translate-x-1"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M14 5l7 7m0 0l-7 7m7-7H3"
+              />
             </svg>
           </a>
         </div>
       </section>
 
-      {/* FOOTER */}
       <Footer />
-    </main >
+    </main>
   );
 }
