@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-16 px-6">
       <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-2 gap-40 ">
+        <div className="grid md:grid-cols-3 gap-12 mb-12">
           <div>
             <Link href="/" className="text-2xl font-black mb-4 inline-block text-blue-400 cursor-pointer">
               Price Value Logistics
@@ -14,7 +14,7 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="">
+          <div>
             <h4 className="font-bold mb-4 text-gray-200">Quick Links</h4>
             <ul className="space-y-2 text-gray-400">
         <li>
@@ -46,7 +46,7 @@ export default function Footer() {
           </div>
 
           <div>
-            {/* <h4 className="font-bold mb-4 text-gray-200">Contact Price Value Logistics</h4>
+            <h4 className="font-bold mb-4 text-gray-200">Contact Price Value Logistics</h4>
             <p className="text-gray-400 mb-2">
               Direct communication for personalized logistics solutions.
             </p>
@@ -58,7 +58,7 @@ export default function Footer() {
               className="text-blue-400 font-bold hover:text-blue-300"
             >
               Email: contact@pvl.com
-            </a> */}
+            </a>
           </div>
         </div>
 

@@ -65,7 +65,7 @@ export default function Navigation() {
         </div>
 
         <Link
-          href="mailto:contact@pvl.com"
+          href="mailto:#"
           className="hidden md:block bg-blue1 text-white px-6 py-2 rounded-lg font-bold hover:bg-blue2 transition"
         >
           Contact Us

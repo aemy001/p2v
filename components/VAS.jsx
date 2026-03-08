@@ -36,9 +36,9 @@ const ValueAddedServices = () => {
           </g>
         </svg>
       ),
-      title: "24-Hour Receiving & Inspection",
+      title: "D2C Fulfillment",
       description:
-        "Efficient dock-to-stock workflows ensure inbound domestic and import shipments are received, inspected, and available for fulfillment within 24 hours.",
+        "We help established DTC eCommerce brands with fast and accurate fulfillment.",
     },
 
     {
@@ -60,9 +60,35 @@ const ValueAddedServices = () => {
           <path d="M33,19c-1.6543,0-3,1.3457-3,3v10c0,1.6543,1.3457,3,3,3s3-1.3457,3-3v-10c0-1.6543-1.3457-3-3-3ZM34,32c0,.55127-.44873,1-1,1s-1-.44873-1-1v-10c0-.55127.44873-1,1-1s1,.44873,1,1v10Z" />
         </svg>
       ),
-      title: "B2B & LTL Ground Freight",
+      title: "Omni Channel Fulfillment",
       description:
-        "Domestic ground transportation designed for palletized freight, wholesale distribution, and compliance with retail routing requirements.",
+        "Keeping DTC, B2B, and marketplace orders moving fast and accurate.",
+    },
+     {
+      icon: (
+        <svg width="64px" height="64px" viewBox="0 0 100 80" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"   className="text-blue1" 
+          strokeWidth="2">
+  <defs>
+    <g id="briefcase">
+      <rect x="0" y="5" width="34" height="24" rx="4" stroke="currentColor" stroke-width="2.5" />
+      <path d="M11 5V3C11 1.89543 11.8954 1 13 1H21C22.1046 1 23 1.89543 23 3V5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+      <rect x="14.5" y="14" width="5" height="5" rx="1" stroke="currentColor" stroke-width="2" />
+    </g>
+  </defs>
+ 
+  <use href="#briefcase" x="52" y="10" />
+ 
+  <use href="#briefcase" x="14" y="42" />
+ 
+  <path d="M50 25H38C36.8954 25 36 25.8954 36 27V36" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M33 33L36 36L39 33" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" /> 
+  <path d="M50 55H62C63.1046 55 64 54.1046 64 53V44" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M61 47L64 44L67 47" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
+      ),
+      title: "B2B Services",
+      description:
+        "Our B2B fulfillment services are designed to scale with your business.",
     },
     {
       icon: (
@@ -88,9 +114,9 @@ const ValueAddedServices = () => {
           <path d="M14.59961,45.27344l.09961-.27344h1.30078c.36914,0,.70801-.20312.88184-.52832s.1543-.71973-.0498-1.02637l-4-6c-.37109-.55664-1.29297-.55664-1.66406,0l-4,6c-.2041.30664-.22363.70117-.0498,1.02637s.5127.52832.88184.52832h1v.67578c0,4.21387,2.68555,7.94043,6.68359,9.27246.10449.03516.21094.05176.31641.05176.31543,0,.61914-.14941.81152-.41504.25586-.35547.25097-.83496-.01172-1.18457-1.75586-2.3418-2.53516-5.22266-2.2002-8.12695ZM14,43c-.41992,0-.79492.2627-.93945.65625l-.37988,1.03906c-.02539.07129-.04395.14453-.05273.21973-.27246,2.17773-.01074,4.34863.74219,6.35254-1.48242-1.43164-2.37012-3.43164-2.37012-5.5918v-1.67578c0-.55273-.44727-1-1-1h-.13184l2.13184-3.19727,2.13184,3.19727h-.13184Z" />
         </svg>
       ),
-      title: "Kitting, Assembly & Bundling",
+      title: "Kit Packaging",
       description:
-        "We assemble multi-component products, promotional kits, and bundled SKUs with accuracy, consistency, and warehouse-level quality control.",
+        "With a wide variety of kit packaging options available, we can tailor a solution to meet your specific needs.",
     },
     // {
     //   icon: <Tags className="text-blue1" size={48} />,
@@ -122,9 +148,9 @@ const ValueAddedServices = () => {
           </g>
         </svg>
       ),
-      title: "Rapid Outbound Fulfillment",
+      title: "2 Day Shipping",
       description:
-        "Time-sensitive B2B orders are picked, packed, and shipped the same day based on cut-off times and operational priority.",
+        "Our 2-day shipping rates are among the most competitive in the industry.",
     },
     {
       icon: (
@@ -145,9 +171,9 @@ const ValueAddedServices = () => {
           <path d="M30,21h-4c-.55273,0-1,.44727-1,1s.44727,1,1,1h4c.55273,0,1-.44727,1-1s-.44727-1-1-1Z" />
         </svg>
       ),
-      title: "Import Container Intake & De-vanning",
+    title: "Warehousing",
       description:
-        "We handle container unloading, floor-loaded freight, palletization, and immediate staging for domestic distribution.",
+        "We offer a variety of warehousing services that can be customized to meet your specific needs.",
     },
     {
       icon: (
@@ -177,9 +203,50 @@ const ValueAddedServices = () => {
           </g>
         </svg>
       ),
-      title: "Scalable Volume Pricing",
+      title: "Returns",
       description:
-        "Operational pricing models designed to reduce per-unit handling costs as inventory volumes and throughput increase.",
+        "Our Inventory Management System tracks all incoming returns for a quicker response time.",
+    },
+     {
+      icon: (
+       <svg width="64px" height="64px" viewBox="0 0 100 100" fill="none" className="text-blue1" xmlns="http://www.w3.org/2000/svg">
+  <rect x="18" y="20" width="50" height="65" rx="4" stroke="currentColor" stroke-width="2" className="text-blue1"/>
+  
+  <path d="M35 20V16C35 13.7909 36.7909 12 39 12H47C49.2091 12 51 13.7909 51 16V20" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+  <rect x="38" y="16" width="10" height="5" rx="1.5" stroke="currentColor" stroke-width="2.5" />
+ 
+  <g stroke="currentColor" stroke-width="2.5" stroke-linecap="round"> 
+    <rect x="26" y="32" width="8" height="8" rx="1.5" fill="none" />
+    <path d="M28 36L30 38L34 34" stroke-width="2" stroke-linejoin="round" />
+    <line x1="39" y1="34" x2="56" y2="34" />
+    <line x1="39" y1="39" x2="50" y2="39" />
+ 
+    <rect x="26" y="47" width="8" height="8" rx="1.5" fill="none" />
+    <path d="M28 51L30 53L34 49" stroke-width="2" stroke-linejoin="round" />
+    <line x1="39" y1="49" x2="56" y2="49" />
+    <line x1="39" y1="54" x2="50" y2="54" />
+ 
+    <rect x="26" y="62" width="8" height="8" rx="1.5" fill="none" />
+    <path d="M28 66L30 68L34 64" stroke-width="2" stroke-linejoin="round" />
+    <line x1="39" y1="65" x2="48" y2="65" />
+  </g>
+ 
+  <path d="M52 62L72 52L92 62L72 72Z" fill="white" />
+  <path d="M52 62V84L72 94L92 84V62" fill="white" />
+  
+  <path d="M52 62L72 52L92 62L72 72Z" stroke="currentColor" stroke-width="3" stroke-linejoin="round" />
+  <path d="M52 62V84L72 94L92 84V62" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M72 72V94" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+
+  <g stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M72 22V46" /> 
+    <path d="M64 38L72 48L80 38" />
+  </g>
+</svg>
+      ),
+      title: "FBR Prep Services",
+      description:
+        "We can reliably repack items, create bundles, add required FNSKU barcodes, and much more.",
     },
   ];
 
@@ -202,7 +269,7 @@ const ValueAddedServices = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-gray-200 border border-gray-200 rounded-3xl overflow-hidden">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px border border-gray-200 rounded-3xl overflow-hidden">
           {services.map((service, index) => (
             <div
               key={index}
@@ -214,7 +281,7 @@ const ValueAddedServices = () => {
               <h4 className="text-xl font-bold text-slate-900 mb-4 uppercase tracking-tight">
                 {service.title}
               </h4>
-              <p className="text-gray-600 text-base leading-relaxed">
+              <p className="text-gray-600 text-lg leading-relaxed">
                 {service.description}
               </p>
             </div>

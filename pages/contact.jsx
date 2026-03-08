@@ -82,7 +82,7 @@ const Contact = () => {
                 {method.description}
               </p>
 
-              <div className="space-y-2">
+              {/* <div className="space-y-2">
                 {method.email && (
                   <p className="font-semibold text-blue1 flex items-center gap-2">
                     <Mail className="w-4 h-4" /> {method.email}
@@ -98,7 +98,7 @@ const Contact = () => {
                     <MapPin className="w-4 h-4" /> 123 Logistics Blvd
                   </p>
                 )}
-              </div>
+              </div> */}
             </div>
           ))}
         </div>

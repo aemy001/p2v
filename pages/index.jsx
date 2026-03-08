@@ -56,7 +56,7 @@ export default function PVLHome() {
           </p>
           <div className="flex items-center justify-center flex-col sm:flex-row gap-4">
             <a
-              href="mailto:contact@pvl.com"
+              href="mailto:#"
               className="bg-blue-400 text-blue-900 px-8 py-4 rounded-lg font-bold text-lg hover:bg-white transition-colors inline-block text-center"
             >
               Contact Us
@@ -371,7 +371,7 @@ export default function PVLHome() {
           </p>
 
           <a
-            href="mailto:contact@pvl.com"
+            href="mailto:#"
             className="inline-flex items-center justify-center bg-white text-blue-900 px-10 py-4 rounded-lg font-bold text-lg shadow-lg shadow-blue-900/20 hover:bg-blue-50 hover:-translate-y-1 hover:shadow-xl transition-all duration-300 group"
           >
             Get in Touch with Price Value Logistics
